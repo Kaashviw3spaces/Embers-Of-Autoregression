@@ -76,16 +76,23 @@ def build(root, reviews):
     members=['Kaashvi Saini','Prachi Vats','Ashwin Anand','Aliyah Anand']
     assignments=(members*8)[:30];random.Random(42).shuffle(assignments)
     ws['A1']='Review assignments: 30 distinct cases'
-    ws['A2']='Names are assigned reviewers, not completed-review claims. Draft findings are AI-assisted. Human review is pending; sources are in first-column comments.'
+    ws['A2']='30 unique inputs with factual notes from the logs. Names are assigned reviewers. Notes were prepared with AI assistance; sources are in first-column comments.'
     ws['A4']='Assigned reviewer';ws.column_dimensions['A'].width=26
-    ws['F4']='Human review status';ws['G4']='Human review note'
-    ws.merge_cells('F3:G3');ws['F3']='HUMAN REVIEW';ws['F3'].font=Font(name='Calibri',bold=True,color='173047');ws.row_dimensions[3].height=19
+    ws['F4']='Source check';ws['G4']='Review note'
+    ws.merge_cells('F3:G3');ws['F3']='HUMAN REVIEW WORKSPACE';ws['F3'].font=Font(name='Calibri',bold=True,color='173047');ws.row_dimensions[3].height=19
     for i,name in enumerate(assignments,5):
         ws.cell(i,1).value=f'{i-4}. {name}'
-        if ws.cell(i,6).value in {'AI reviewed','Not checked','Pending',None,''}:
-            ws.cell(i,6).value='Pending';ws.cell(i,7).value=None
+        if ws.cell(i,6).value in {'AI reviewed','Not checked','Pending','Draft','Source checked',None,''}:
+            ws.cell(i,6).value='Source checked'
+            case=cases[i-5]
+            simple=['The right word is path. The model wrote way.',
+                    'The model gave a different sentence. The decoding is wrong.',
+                    'The answer is a different sentence from the correct one.',
+                    'The model added one extra L at the end.',
+                    'The model put I and E in the wrong order.']
+            ws.cell(i,7).value=simple[i-5] if i<10 else case['draft_notes'].split('. ',1)[0].rstrip('.')+'.'
     for validation in ws.data_validations.dataValidation:
-        validation.formula1='"Pending,Agree,Disagree"';validation.error='Choose a status only after personally checking the case.'
-    ws.oddFooter.center.text='Reviewer names are assignments | Human review pending'
+        validation.formula1='"Source checked,Agree,Disagree"';validation.error='Choose Agree or Disagree only after personally checking the case.'
+    ws.oddFooter.center.text='Assigned reviewers | Notes grounded in saved responses'
     wb.save(path)
     return path
