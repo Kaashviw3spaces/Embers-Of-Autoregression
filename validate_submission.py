@@ -74,7 +74,8 @@ def main():
     workbook=load_workbook(ROOT/'Manual_Error_Review.xlsx')
     assert workbook.sheetnames==['Review']
     sheet=workbook.active
-    assert sheet.max_row==9 and sheet.max_column==7
+    assert sheet.max_row==34 and sheet.max_column==7
+    assert len({r['input'].strip().casefold() for r in reviews})==30
     for excel_row,case in zip(range(5,10),key_errors):
         assert sheet.cell(excel_row,3).value==case['expected']
         assert sheet.cell(excel_row,4).value==case['observed']

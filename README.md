@@ -3,7 +3,7 @@
 **Kaashvi Saini, Prachi Vats, Ashwin Anand, Aliyah Anand**
 
 Start with `report/Combined_Report.pdf` (four pages), `slides/Presentation.pptx`
-(five editable slides), and `Manual_Error_Review.xlsx` (only five completed errors).
+(five editable slides), and `Manual_Error_Review.xlsx` (30 distinct cases with no repeated inputs).
 The main conclusion is a partial reproduction with traceable results; missing
 model controls, participant reviews and twist results are stated explicitly.
 
@@ -33,8 +33,9 @@ requests and needs no API key. It generates:
 - `report/Review_Packet_30.pdf` (supplementary case explanations with evidence excerpts, separate
   from the report; it does not certify that participants reviewed the cases).
 - `slides/Presentation.pptx`, `slides/Presentation.pdf`, and `slides/presentation.md` (five slides).
-- `Manual_Error_Review.xlsx`: one simple sheet containing only the five clear
-  completed wrong answers; editable check/note columns and source comments.
+- `Manual_Error_Review.xlsx`: one simple sheet with 30 unique test inputs:
+  five completed wrong answers and 25 clearly labeled unfinished replies;
+  editable check/note columns and source comments.
 - Root `MASTER_*` files, mirrored in `results/master/` as compatibility copies.
 - `analysis/run_summary.csv`, `current_summary.json`, `dataset_checks.json`, and
   `matched_comparison.json`.
@@ -112,7 +113,7 @@ a small prompt-variant pilot, not proof of the submitted thinking/internet effec
 
 ## Human review still required
 
-The Excel sheet contains only five completed errors. The separate
+The Excel sheet contains five completed errors and 25 unfinished responses. The
 `report/Review_Packet_30.pdf` explains 30 selected cases in simple words:
 5 wrong completed answers and 25 unfinished responses. These are 30 cases,
 not 30 different error types. Each shows the expected answer, observed answer,

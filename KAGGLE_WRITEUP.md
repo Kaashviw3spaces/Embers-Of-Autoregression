@@ -38,7 +38,8 @@ This note is an operational reminder; remove it after checking the sharing setti
 
 - Five-slide editable PowerPoint and matching PDF.
 - Four-page report in easy words.
-- `Manual_Error_Review.xlsx`: only five completed content errors.
+- `Manual_Error_Review.xlsx`: 30 distinct inputs; five completed content errors
+  and 25 clearly labeled unfinished replies, with no repeated test inputs.
 - Source logs, errors, answer-key checks and a file-by-file directory audit.
 - Separate 30-case reading packet: five wrong completed answers and 25 unfinished
   replies. Participant manual review is not certified; the five-row Excel is not

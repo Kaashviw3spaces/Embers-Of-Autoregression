@@ -132,7 +132,7 @@ def build_report(root, rows, groups, summary):
         ['Hackathon item', 'Evidence and current status'],
         ['Central claim + two open models', 'Task/output conditions tested. Two Qwen labels requested; two distinct backends remain unverified.'],
         ['Extension + prior prediction', 'Team reports submitting its original prediction. Prompt variants and new exploratory tests are logged; verified thinking/internet effects remain unestablished.'],
-        ['30 failures read by hand', f"Excel shows only 5 clear completed errors. A separate 30-case packet adds 25 unfinished replies. {summary['participant_reviews_confirmed']} participant reviews confirmed; this requirement is not certified."],
+        ['30 failures read by hand', f"Excel and the reading packet contain 30 distinct inputs: 5 wrong completed answers and 25 unfinished replies. {summary['participant_reviews_confirmed']} participant reviews confirmed; this requirement is not certified."],
         ['Surprise twist', 'No twist results were supplied.'],
         ['Code, report, slides, all logs', 'Offline rebuild, this four-page report, five slides, a simple Excel sheet, recorded outputs/errors, source references and AI disclosure are included.'],
     ]
@@ -214,7 +214,7 @@ def build_report(root, rows, groups, summary):
     para('Some source flags wrongly call these 20 unfinished replies untruncated. We use the server finish reason and keep the original flags. Spacing prompts also contain an unfilled template label; no measurements show how letters were tokenized. The data cannot establish a tokenization cause. Seven identical-payload groups, including two new cross-model budget pairs, leave model identity and independent calls uncertain.',True)
 
     page('Meaningful Errors, Validity and Hackathon Status')
-    para('These five replies finished and chose wrong content. The simple Manual_Error_Review.xlsx contains only these five cases, with short explanations and space for your check. Source details are in cell comments and analysis/KEY_ERROR_EVIDENCE.csv. Unfinished replies and correct answers with extra explanation are excluded from the Excel sheet.')
+    para('These five replies finished and chose wrong content. Manual_Error_Review.xlsx contains these five and 25 unfinished replies, clearly labeled, with no repeated inputs. Each row has a short explanation and space for your check. Source details are in cell comments. The five completed errors are also listed in analysis/KEY_ERROR_EVIDENCE.csv.')
     table(error_table,[70,152,178,109])
     para('Why the cipher errors matter: ROT-13 cngu must decode to path, not its synonym way. In F2, the explanation even states N becomes H although shifting N back by 12 gives B. These are checkable rule violations. They are compatible with an influence of fluent language, but these examples alone do not establish a pretraining-probability mechanism.')
     heading('An additional useful trace: doubting the literal answer')

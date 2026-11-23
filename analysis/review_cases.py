@@ -22,7 +22,7 @@ WRONG = [
 # applying a generic diagnosis to the first 25 failures in a file.
 UNFINISHED = [
     ('4e72d3d04c40b082978fd9c5', 'It repeatedly checks early words and stops while explaining time. It does not finish the sentence in this saved response.'),
-    ('9ddb8342eedf1aff39749979', 'With the reference paragraph supplied, it still stops while working on time. This attempt also used a different system instruction, so it is not a clean test of guidance alone.'),
+    ('2fcc3507e958185fcf1da617', 'It decodes the reordered sentence letter by letter, then stops before finishing its response.'),
     ('eae973ae2b42a71ef4be6789', 'It returns to listing the alphabet while decoding the sentence containing sons and letter. The saved response ends at the start of that list.'),
     ('0ee76d6e25b8bc64b1fbccec', 'It questions the unusual phrase another may and starts checking znl again. The task requires preserving the given word order even when it sounds unusual.'),
     ('da94d1387f87adf217c1c889', 'The trace reaches treason, then questions whether that word is intended. The correct decoding really is treason; the run still ends with the length flag.'),
@@ -43,7 +43,7 @@ UNFINISHED = [
     ('abc9dc93eb4f748c99aaddeb', 'For reverse alphabetical sorting, it keeps comparing the letters o and l until the limit. No completed sorted-list response is recorded.'),
     ('206f2168d99d54bf67d497f4', 'The visible final sorted list begins correctly but cuts off at fl. The remaining words are missing from that final list.'),
     ('3cac2184187c9298083861e6', 'For ascending number sorting, it continues checking neighbouring numbers and stops while comparing 6988 with 7076. The length flag shows noncompletion.'),
-    ('fab1802f021f56c25696bda0', 'For descending number sorting, it verifies the last comparisons, says All good, and then cuts off. The request still has no completed stop response.'),
+    ('0b4ffae43bba06bda26716ea', 'It starts listing the words in reverse alphabetical order, then cuts off before finishing the list.'),
     ('006751444eba94635aca73a0', 'For moving articles before the previous word, it spends the response discussing the example and stops during that discussion instead of completing the requested output.'),
     ('8ef58d85d2a5f2603b9e387d', 'For the unusual article-swap sentence, it discusses loop indexing and stops in the middle of a code explanation. This is an unfinished response, not evidence that a particular final swap was wrong.'),
 ]
@@ -67,6 +67,7 @@ def curated_reviews(rows):
                              evidence_excerpt=text[-220:], draft_notes=explanation,
                              review_group='Unfinished response'))
     assert len(selected) == 30 and len({r['record_id'] for r in selected}) == 30
+    assert len({r['input'].strip().casefold() for r in selected})==30, 'Repeated test input in review'
     assert all(r['source_quality'] != 'quarantined_excerpt' for r in selected)
     for number, row in enumerate(selected, 1):
         row['case_number'] = number
