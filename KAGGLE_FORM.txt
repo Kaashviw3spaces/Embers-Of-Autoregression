@@ -1,0 +1,86 @@
+TITLE
+Kybers: Embers of Autoregression
+
+SUBTITLE (under 140 characters)
+Testing Qwen on exact rules: cipher mistakes, unfinished answers, and the limits of thinking prompts and guidance.
+
+CARD / THUMBNAIL
+Upload submission_assets/Kaggle_Thumbnail_560x280.png
+Exact dimensions: 560 x 280 pixels.
+
+TRACK
+Main Track (automatically selected).
+
+PROJECT DESCRIPTION — copy the text between START and END
+START
+We built a reproducible evaluation of Qwen on exact, rule-based tasks from
+Embers of Autoregression: ciphers, acronyms, reversal, sorting and related tests.
+The paper asks whether task, input and output familiarity affect performance
+even when the correct rule is fixed.
+
+Our combined evidence contains 596 source records: 554 returned outputs and
+42 request errors. Duplicate exports are not counted as new experiments, and
+14 repeated shortened cipher excerpts are excluded from scoring. Answer keys
+were checked with deterministic rules; Pig Latin references were checked by
+encoding them back to their inputs.
+
+The clearest completed errors are checkable: ROT-13 changed "path" to "way";
+two ROT-12 replies returned unrelated sentences; an acronym gained an extra L
+(LITERAL became LITERALL); another swapped I and E (APPLIED became APPLEID).
+We distinguish these content errors from correct answers with extra explanation
+and responses that ran out of output budget.
+
+Our small multi-task pilot also includes correct counterexamples. For example,
+word reversal produced completed replies containing the expected answer for
+3/3 ordinary outputs and 2/3 reordered outputs. These counts allow explanations
+and are not answer-only exact-match accuracy.
+
+The intended extensions concerned thinking and internet-sourced guidance.
+The saved trials support a narrower prompt comparison: an authored cipher
+table produced one exact completed ROT-12 reply out of four on the requested
+30B label; Direct and Standard each produced none. On the same item, the table
+completed the answer while both controls truncated. This is a pilot observation.
+Direct did not establish a thinking-off control, and the table was not a logged
+web-retrieval step. Additional spacing, larger-budget and three-example trials
+produced 20 unfinished replies and four API errors, with no completed answers.
+
+We therefore report a partial reproduction, not a proven causal mechanism.
+Distinct server checkpoints, effective thinking controls and an internet-access
+effect remain unverified. The Excel review contains 30 distinct test inputs:
+five wrong completed answers and 25 labeled unfinished replies. Human manual
+review is not certified, and no surprise-twist result was supplied.
+
+The repository includes source code, dependencies, all recorded outputs and
+errors, source checks, the four-page report, a five-slide presentation and the
+simple review workbook. After installing requirements, results and documents
+rebuild offline with python3 rebuild_evidence.py; no API key is needed.
+
+Team Kybers: Kaashvi Saini, Prachi Vats, Ashwin Anand, Aliyah Anand.
+ChatGPT assisted code, debugging, checking logs and writing; supplied source
+documents also name Antigravity and an @verifier role. Experimental responses
+come from the supplied logs; missing results and human checks were not invented.
+Paper reference: https://arxiv.org/abs/2309.13638
+END
+
+PROJECT LINKS — add these separately
+Code: https://github.com/Kaashviw3spaces/Embers-Of-Autoregression
+Report PDF: https://github.com/Kaashviw3spaces/Embers-Of-Autoregression/blob/main/report/Combined_Report.pdf
+Google Drive PPT: https://docs.google.com/presentation/d/1FXoexbKv0SAWmk9ruZKXXCcJ4u9x8Fek/edit?usp=drivesdk&ouid=105365974121316586168&rtpof=true&sd=true
+Public PPT backup: https://github.com/Kaashviw3spaces/Embers-Of-Autoregression/blob/main/slides/Presentation.pptx
+
+FILES — all well below the 100 MB limit
+report/Combined_Report.pdf
+slides/Presentation.pptx
+Manual_Error_Review.xlsx
+Optional: slides/Presentation.pdf and the complete final ZIP.
+
+MEDIA GALLERY
+Optional. Results/error screenshots are in submission_assets if included.
+No video is required by the supplied instructions.
+
+DOI
+Optional. Leave off unless you want a DOI for the final Writeup.
+
+FINAL STEP
+Make the Google Drive deck "Anyone with the link / Viewer". Confirm that all
+links open, then click Submit on Kaggle. A saved draft is not a final submission.

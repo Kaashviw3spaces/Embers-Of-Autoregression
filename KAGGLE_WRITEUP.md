@@ -42,7 +42,7 @@ This note is an operational reminder; remove it after checking the sharing setti
   and 25 clearly labeled unfinished replies, with no repeated test inputs.
 - Source logs, errors, answer-key checks and a file-by-file directory audit.
 - Separate 30-case reading packet: five wrong completed answers and 25 unfinished
-  replies. Participant manual review is not certified; the five-row Excel is not
+  replies. Participant manual review is not certified; the Excel is not
   a claim that 30 completed wrong answers have been reviewed.
 - No surprise-twist result was supplied.
 

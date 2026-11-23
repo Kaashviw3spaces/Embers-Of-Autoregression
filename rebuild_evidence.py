@@ -169,7 +169,7 @@ def main():
         "thinking_extension_established":False,"retrieval_extension_established":False,"twist_results_supplied":False,
         "matched_stored_flags":matched,
         "friend2_prompt_variant_evidence":friend2,
-        "expanded_campaign_evidence":expanded,"simple_excel_completed_error_cases":5,
+        "expanded_campaign_evidence":expanded,"simple_excel_completed_error_cases":5,"simple_excel_total_cases":30,
         "limitations":["Original pilot file missing; user pilot records reconstructed from chat.","Legacy final content and reasoning were not consistently separated.","Fourteen identical shortened cipher outputs are quarantined.","32B legacy pilot has uniform latency/token metadata and lacks API envelopes.","Checkpoint identities and effective thinking switches remain unverified.","Prompt-variant pilots are not verified thinking-off or web-retrieval controls.","Added phase-2 trials have no completed answers; source truncation flags conflict with finish reasons.","Phase-2 budgets are named in code/condition labels; actual per-call request configuration and usage are missing.","No twist evidence was supplied."]
     }
     json_write(ROOT / "MASTER_RUN_METADATA.json", summary)

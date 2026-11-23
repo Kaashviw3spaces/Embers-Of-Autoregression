@@ -1,4 +1,4 @@
-"""A deliberately small Excel sheet: only five completed content errors."""
+"""A concise Excel sheet with 30 distinct inputs and honest outcome labels."""
 from pathlib import Path
 
 

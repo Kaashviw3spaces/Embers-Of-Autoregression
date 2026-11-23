@@ -17,8 +17,8 @@ The Drive upload is verified but is PRIVATE until you change General access to
 Anyone with the link / Viewer. The connector cannot make that change for you.
 Then paste KAGGLE_WRITEUP.md into one Writeup and click Submit yourself.
 
-Extra: Manual_Error_Review.xlsx is deliberately only five completed wrong answers.
-The separate 30-case packet also includes unfinished responses. Participant review
+Extra: Manual_Error_Review.xlsx has 30 distinct test inputs: five completed wrong
+answers and 25 clearly labeled unfinished responses. Participant review
 and surprise-twist results remain unconfirmed, as stated in the report.
 
 Rebuild after installing requirements:

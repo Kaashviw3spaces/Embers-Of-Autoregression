@@ -76,6 +76,15 @@ def main():
     sheet=workbook.active
     assert sheet.max_row==34 and sheet.max_column==7
     assert len({r['input'].strip().casefold() for r in reviews})==30
+    excel_inputs=[]
+    for excel_row in range(5,35):
+        record_id=sheet.cell(excel_row,1).comment.text.split('\n',1)[0]
+        item=source_by_id[record_id]
+        assert sheet.cell(excel_row,3).value==item['expected']
+        assert item['strict_correct']=='False' and item['finish_reason'] in {'stop','length'}
+        excel_inputs.append(item['input'].strip().casefold())
+        if item['finish_reason']=='length':assert sheet.cell(excel_row,4).value.startswith('Unfinished.')
+    assert len(set(excel_inputs))==30
     for excel_row,case in zip(range(5,10),key_errors):
         assert sheet.cell(excel_row,3).value==case['expected']
         assert sheet.cell(excel_row,4).value==case['observed']

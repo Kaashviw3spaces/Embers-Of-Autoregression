@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T19:59:06.111869+00:00",
+  "generated_at": "2026-11-23T20:03:48.591391+00:00",
   "scoring_version": "completed-stored-exact-v1",
   "top_level_source_records": 596,
   "records_by_contributor": {
@@ -802,6 +802,7 @@
     "meaning": "Supporting short-budget pilots, not a new completed-error set or evidence of a cross-model advantage."
   },
   "simple_excel_completed_error_cases": 5,
+  "simple_excel_total_cases": 30,
   "limitations": [
     "Original pilot file missing; user pilot records reconstructed from chat.",
     "Legacy final content and reasoning were not consistently separated.",
