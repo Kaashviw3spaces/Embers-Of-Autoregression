@@ -71,5 +71,21 @@ def build(root, reviews):
     ws.print_options.horizontalCentered=True;ws.print_area='A1:G34';ws.print_title_rows='1:4'
     ws.page_margins=PageMargins(left=.25,right=.25,top=.3,bottom=.3,header=.1,footer=.15)
     ws.oddFooter.center.text='AI-reviewed source evidence | Human confirmation pending'
+    # Assign reviewers; an assignment must never be presented as completed work.
+    import random
+    members=['Kaashvi Saini','Prachi Vats','Ashwin Anand','Aliyah Anand']
+    assignments=(members*8)[:30];random.Random(42).shuffle(assignments)
+    ws['A1']='Review assignments: 30 distinct cases'
+    ws['A2']='Names are assigned reviewers, not completed-review claims. Draft findings are AI-assisted. Human review is pending; sources are in first-column comments.'
+    ws['A4']='Assigned reviewer';ws.column_dimensions['A'].width=26
+    ws['F4']='Human review status';ws['G4']='Human review note'
+    ws.merge_cells('F3:G3');ws['F3']='HUMAN REVIEW';ws['F3'].font=Font(name='Calibri',bold=True,color='173047');ws.row_dimensions[3].height=19
+    for i,name in enumerate(assignments,5):
+        ws.cell(i,1).value=f'{i-4}. {name}'
+        if ws.cell(i,6).value in {'AI reviewed','Not checked','Pending',None,''}:
+            ws.cell(i,6).value='Pending';ws.cell(i,7).value=None
+    for validation in ws.data_validations.dataValidation:
+        validation.formula1='"Pending,Agree,Disagree"';validation.error='Choose a status only after personally checking the case.'
+    ws.oddFooter.center.text='Reviewer names are assignments | Human review pending'
     wb.save(path)
     return path
