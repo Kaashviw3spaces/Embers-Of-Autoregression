@@ -1,0 +1,103 @@
+{
+  "task_name": "acronym1_11",
+  "model": "qwen3-32b",
+  "condition": "baseline",
+  "total_requested": 5,
+  "valid_completed": 5,
+  "api_error_count": 0,
+  "accuracy": 0.8,
+  "mean_levenshtein": 1.2,
+  "results": [
+    {
+      "stimulus_id": 0,
+      "input_words": "exalted preteen impeded salient outcast drifter esquire",
+      "prompt": "What sequence of letters is created when you combine the first letters of the words in the sequence \"exalted preteen impeded salient outcast drifter esquire\"? Write your answer in capital letters, with no spaces or punctuation.",
+      "gt": "EPISODE",
+      "raw_response": "Okay, let's see. The problem is asking for the sequence of letters created by combining the first letters of each word in the given sequence: \"exalted preteen impeded salient outcast drifter esquire\". I need to write the answer in capital letters, no spaces or punctuation.\n\nFirst, I should break down each word and take the first letter. Let me list them out one by one.\n\nThe first word is \"exalted\". The first letter is E.\n\nNext is \"preteen\". First letter P.\n\nThen \"impeded\". First letter I.\n\nAfter that, \"salient\". First letter S.\n\nThen \"outcast\". First letter O.\n\nNext is \"drifter\". First letter D.\n\nFinally, \"esquire\". First letter E.\n\nSo putting those together: E, P, I, S, O, D, E.\n\nWait, let me check again to make sure I didn't miss any words or get the first letters wrong.\n\nExalted: E\n\nPreteen: P\n\nImpeded: I\n\nSalient: S\n\nOutcast: O\n\nDrifter: D\n\nEsquire: E\n\nYes, that's seven words. So the first letters are E, P, I, S, O, D, E.\n\nNow, combining them without spaces: EPI SODE? Wait, no, E-P-I-S-O-D-E. So EPI SODE? Wait, E-P-I-S-O-D-E. Let me spell it out: E, P, I, S, O, D, E. So the sequence is EPI SODE? Wait, no, it's E-P-I-S-O-D-E. So the letters are E, P, I, S, O, D, E. So when combined, it's EPI SODE? Wait, no, just EPI SODE without the space. Wait, E-P-I-S-O-D-E. So EPI SODE would be E-P-I-S-O-D-E. Wait, but \"EPI\" is E-P-I, then S-O-D-E. So the whole thing is EPI SODE? Wait, but the letters are E, P, I, S, O, D, E. So the sequence is EPI SODE? Wait, no, it's E-P-I-S-O-D-E. So written as a single word: EPI SODE? Wait, no, no spaces. So EPI SODE would be E-P-I-S-O-D-E. Wait, but \"EPI\" is three letters, then S, O, D, E. So the entire sequence is EPI SODE? Wait, no, just concatenate all the letters. So E + P + I + S + O + D + E = EPI SODE? Wait, no, EPI SODE would have a space, but the problem says no spaces. So it's EPI SODE",
+      "parsed_response": "EPISODE",
+      "correct": true,
+      "lev_distance": 0,
+      "latency": 153.47906374931335,
+      "tokens_used": 657,
+      "finish_reason": "length",
+      "api_error": null,
+      "retry_history": []
+    },
+    {
+      "stimulus_id": 1,
+      "input_words": "comcast entitle rotting teeming annular impeded nonstop",
+      "prompt": "What sequence of letters is created when you combine the first letters of the words in the sequence \"comcast entitle rotting teeming annular impeded nonstop\"? Write your answer in capital letters, with no spaces or punctuation.",
+      "gt": "CERTAIN",
+      "raw_response": "The sequence of first letters from the words \"comcast entitle",
+      "parsed_response": "ENTITLE",
+      "correct": false,
+      "lev_distance": 6,
+      "latency": 198.07333612442017,
+      "tokens_used": 657,
+      "finish_reason": "length",
+      "api_error": null,
+      "retry_history": [
+        {
+          "attempt": 0,
+          "error": "Error code: 429 - Rate limit exceeded for api_key: [REDACTED_IDENTIFIER]. Lim",
+          "timestamp": 1795447108.294891
+        },
+        {
+          "attempt": 1,
+          "error": "Error code: 429 - Rate limit exceeded for api_key: [REDACTED_IDENTIFIER]. Lim",
+          "timestamp": 1795447242.0482109
+        },
+        {
+          "attempt": 2,
+          "error": "Error code: 429 - Rate limit exceeded for api_key: [REDACTED_IDENTIFIER]. Lim",
+          "timestamp": 1795447377.703125
+        }
+      ]
+    },
+    {
+      "stimulus_id": 2,
+      "input_words": "invades nodding vertigo arbiter dragnet empress remakes",
+      "prompt": "What sequence of letters is created when you combine the first letters of the words in the sequence \"invades nodding vertigo arbiter dragnet empress remakes\"? Write your answer in capital letters, with no spaces or punctuation.",
+      "gt": "INVADER",
+      "raw_response": "INVADER",
+      "parsed_response": "INVADER",
+      "correct": true,
+      "lev_distance": 0,
+      "latency": 94.64594578742981,
+      "tokens_used": 476,
+      "finish_reason": "stop",
+      "api_error": null,
+      "retry_history": []
+    },
+    {
+      "stimulus_id": 3,
+      "input_words": "panache eyeless retrain fibrous orchids redness maestro",
+      "prompt": "What sequence of letters is created when you combine the first letters of the words in the sequence \"panache eyeless retrain fibrous orchids redness maestro\"? Write your answer in capital letters, with no spaces or punctuation.",
+      "gt": "PERFORM",
+      "raw_response": "PERFORM",
+      "parsed_response": "PERFORM",
+      "correct": true,
+      "lev_distance": 0,
+      "latency": 92.4992287158966,
+      "tokens_used": 441,
+      "finish_reason": "stop",
+      "api_error": null,
+      "retry_history": []
+    },
+    {
+      "stimulus_id": 4,
+      "input_words": "coexist heretic envious atheism parrots esquire realist",
+      "prompt": "What sequence of letters is created when you combine the first letters of the words in the sequence \"coexist heretic envious atheism parrots esquire realist\"? Write your answer in capital letters, with no spaces or punctuation.",
+      "gt": "CHEAPER",
+      "raw_response": "CHEAPER",
+      "parsed_response": "CHEAPER",
+      "correct": true,
+      "lev_distance": 0,
+      "latency": 96.31779217720032,
+      "tokens_used": 432,
+      "finish_reason": "stop",
+      "api_error": null,
+      "retry_history": []
+    }
+  ]
+}

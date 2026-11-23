@@ -1,0 +1,58 @@
+{
+  "task_name": "revdec_highprob",
+  "task_family": "reverse",
+  "model": "qwen3-32b",
+  "condition": "baseline",
+  "total_requested": 3,
+  "valid_completed": 3,
+  "api_error_count": 0,
+  "accuracy": 0.0,
+  "mean_levenshtein": 569.3333333333334,
+  "results": [
+    {
+      "stimulus_id": 0,
+      "input_words": "reason. another be also may there time, this But",
+      "prompt": "Reverse the following sequence of words. Punctuation marks should be moved along with the words that they are attached to; e.g., the reversed version of \"everyone! morning, Good\" would be \"Good morning, everyone!\": \"reason. another be also may there time, this But\"",
+      "gt": "But this time, there may also be another reason.",
+      "raw_response": "Okay, let's see. The user wants me to reverse the sequence of words in the given sentence, but keep the punctuation attached to their respective words. The example they provided is \"everyone! morning, Good\" becoming \"Good morning, everyone!\". So, the key here is to treat each word with its punctuation as a single unit and reverse the order of these units.\n\nThe input sentence is: \"reason. another be also may there time, this But\". Let me break this down into individual words with their punctuation. Let's list them out:\n\n1. reason.\n2. another\n3. be\n4. also\n5. may\n6. there\n7. time,\n8. this\n9. But\n\nNow",
+      "parsed_response": "Okay, let's see. The user wants me to reverse the sequence of words in the given sentence, but keep the punctuation attached to their respective words. The example they provided is \"everyone! morning, Good\" becoming \"Good morning, everyone!\". So, the key here is to treat each word with its punctuation as a single unit and reverse the order of these units.\n\nThe input sentence is: \"reason. another be also may there time, this But\". Let me break this down into individual words with their punctuation. Let's list them out:\n\n1. reason.\n2. another\n3. be\n4. also\n5. may\n6. there\n7. time,\n8. this\n9. But\n\nNow",
+      "correct": false,
+      "lev_distance": 560,
+      "latency": 27.258191108703613,
+      "tokens_used": 219,
+      "finish_reason": "length",
+      "api_error": null,
+      "retry_history": []
+    },
+    {
+      "stimulus_id": 1,
+      "input_words": "principles. these follow to continue we day, this To",
+      "prompt": "Reverse the following sequence of words. Punctuation marks should be moved along with the words that they are attached to; e.g., the reversed version of \"everyone! morning, Good\" would be \"Good morning, everyone!\": \"principles. these follow to continue we day, this To\"",
+      "gt": "To this day, we continue to follow these principles.",
+      "raw_response": "Okay, let's see. The user wants me to reverse the sequence of words in the given sentence, but keep the punctuation attached to their respective words. The example they provided is \"everyone! morning, Good\" becoming \"Good morning, everyone!\". So, the key here is to treat each word with its punctuation as a single unit and reverse the order of those units.\n\nThe input sentence is \"principles. these follow to continue we day, this To\". Let me break it down into individual words with their punctuation. Let's list them out:\n\n1. principles.\n2. these\n3. follow\n4. to\n5. continue\n6. we\n7. day,\n8. this\n9. To",
+      "parsed_response": "Okay, let's see. The user wants me to reverse the sequence of words in the given sentence, but keep the punctuation attached to their respective words. The example they provided is \"everyone! morning, Good\" becoming \"Good morning, everyone!\". So, the key here is to treat each word with its punctuation as a single unit and reverse the order of those units.\n\nThe input sentence is \"principles. these follow to continue we day, this To\". Let me break it down into individual words with their punctuation. Let's list them out:\n\n1. principles.\n2. these\n3. follow\n4. to\n5. continue\n6. we\n7. day,\n8. this\n9. To",
+      "correct": false,
+      "lev_distance": 554,
+      "latency": 26.736035108566284,
+      "tokens_used": 221,
+      "finish_reason": "length",
+      "api_error": null,
+      "retry_history": []
+    },
+    {
+      "stimulus_id": 2,
+      "input_words": "beginning. the from planned exactly not was it Well,",
+      "prompt": "Reverse the following sequence of words. Punctuation marks should be moved along with the words that they are attached to; e.g., the reversed version of \"everyone! morning, Good\" would be \"Good morning, everyone!\": \"beginning. the from planned exactly not was it Well,\"",
+      "gt": "Well, it was not exactly planned from the beginning.",
+      "raw_response": "Okay, let's see. The user wants me to reverse the sequence of words in the given sentence, but keep the punctuation attached to their respective words. The example they gave was \"everyone! morning, Good\" becomes \"Good morning, everyone!\". So I need to make sure that when I reverse the order of the words, the punctuation stays with the words they're attached to.\n\nThe input sentence is \"beginning. the from planned exactly not was it Well,\". Let me break this down. First, I need to split the sentence into individual words, keeping track of their punctuation. Let me list them out:\n\n1. beginning.\n2. the\n3. from\n4. planned\n5. exactly\n6. not",
+      "parsed_response": "Okay, let's see. The user wants me to reverse the sequence of words in the given sentence, but keep the punctuation attached to their respective words. The example they gave was \"everyone! morning, Good\" becomes \"Good morning, everyone!\". So I need to make sure that when I reverse the order of the words, the punctuation stays with the words they're attached to.\n\nThe input sentence is \"beginning. the from planned exactly not was it Well,\". Let me break this down. First, I need to split the sentence into individual words, keeping track of their punctuation. Let me list them out:\n\n1. beginning.\n2. the\n3. from\n4. planned\n5. exactly\n6. not",
+      "correct": false,
+      "lev_distance": 594,
+      "latency": 26.65618085861206,
+      "tokens_used": 219,
+      "finish_reason": "length",
+      "api_error": null,
+      "retry_history": []
+    }
+  ]
+}

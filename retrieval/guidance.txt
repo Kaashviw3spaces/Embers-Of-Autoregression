@@ -1,0 +1,8 @@
+Guidance on Caesar Shift Ciphers:
+A shift cipher replaces each letter with the letter found k positions ahead in the alphabet, wrapping around from Z back to A:
+- Let A=0, B=1, ..., Z=25.
+- Encryption with shift k: C = (P + k) mod 26.
+- Decryption with shift k: P = (C - k) mod 26 = (C + (26 - k)) mod 26.
+For ROT-13, k = 13 (so encryption and decryption are symmetric because 26 - 13 = 13).
+For ROT-12, k = 12. Encryption adds 12 (mod 26); Decryption subtracts 12, which is equivalent to adding 14 (mod 26).
+Ensure spaces, punctuation, and letter case remain unchanged.

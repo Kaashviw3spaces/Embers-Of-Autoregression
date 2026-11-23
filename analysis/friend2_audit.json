@@ -1,0 +1,532 @@
+{
+  "available": true,
+  "primary": {
+    "source_records": 63,
+    "distinct_uids": 63,
+    "returned_records": 63,
+    "request_error_records": 0,
+    "strict_completed_exact": 0,
+    "completed_visible_target_contains": 20,
+    "truncated_records": 43,
+    "stored_correct_flags": 22,
+    "target_present_in_reasoning": 50
+  },
+  "extension": {
+    "source_records": 54,
+    "distinct_uids": 48,
+    "returned_records": 42,
+    "request_error_records": 12,
+    "strict_completed_exact": 5,
+    "completed_visible_target_contains": 9,
+    "truncated_records": 33,
+    "stored_correct_flags": 9,
+    "target_present_in_reasoning": 28
+  },
+  "phase2": {
+    "source_records": 24,
+    "distinct_uids": 24,
+    "returned_records": 20,
+    "request_error_records": 4,
+    "strict_completed_exact": 0,
+    "completed_visible_target_contains": 0,
+    "truncated_records": 20,
+    "stored_correct_flags": 0,
+    "target_present_in_reasoning": 10
+  },
+  "phase2_cells": [
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot12dec",
+      "condition": "budget_4096_tokens",
+      "item_opportunities": 3,
+      "attempt_records": 3,
+      "returned_records": 3,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "truncated_records": 3,
+      "final_content_nonempty": 0,
+      "target_present_in_reasoning": 3,
+      "truncation_flag_disagreements": 3,
+      "prompt_template_placeholder_present": 0,
+      "max_tokens_logged_per_call": false,
+      "token_usage_logged": false,
+      "interpretation": "Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+    },
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot12dec",
+      "condition": "char_spaced_stimuli",
+      "item_opportunities": 3,
+      "attempt_records": 3,
+      "returned_records": 3,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "truncated_records": 3,
+      "final_content_nonempty": 0,
+      "target_present_in_reasoning": 0,
+      "truncation_flag_disagreements": 3,
+      "prompt_template_placeholder_present": 3,
+      "max_tokens_logged_per_call": false,
+      "token_usage_logged": false,
+      "interpretation": "Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+    },
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot12dec",
+      "condition": "fewshot_3shot",
+      "item_opportunities": 3,
+      "attempt_records": 3,
+      "returned_records": 3,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "truncated_records": 3,
+      "final_content_nonempty": 0,
+      "target_present_in_reasoning": 2,
+      "truncation_flag_disagreements": 3,
+      "prompt_template_placeholder_present": 0,
+      "max_tokens_logged_per_call": false,
+      "token_usage_logged": false,
+      "interpretation": "Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+    },
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot13dec",
+      "condition": "char_spaced_stimuli",
+      "item_opportunities": 3,
+      "attempt_records": 3,
+      "returned_records": 3,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "truncated_records": 3,
+      "final_content_nonempty": 0,
+      "target_present_in_reasoning": 0,
+      "truncation_flag_disagreements": 3,
+      "prompt_template_placeholder_present": 3,
+      "max_tokens_logged_per_call": false,
+      "token_usage_logged": false,
+      "interpretation": "Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot12dec",
+      "condition": "budget_4096_tokens",
+      "item_opportunities": 3,
+      "attempt_records": 3,
+      "returned_records": 3,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "truncated_records": 3,
+      "final_content_nonempty": 1,
+      "target_present_in_reasoning": 3,
+      "truncation_flag_disagreements": 3,
+      "prompt_template_placeholder_present": 0,
+      "max_tokens_logged_per_call": false,
+      "token_usage_logged": false,
+      "interpretation": "Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot12dec",
+      "condition": "char_spaced_stimuli",
+      "item_opportunities": 3,
+      "attempt_records": 3,
+      "returned_records": 2,
+      "request_error_records": 1,
+      "strict_completed_exact": 0,
+      "truncated_records": 2,
+      "final_content_nonempty": 0,
+      "target_present_in_reasoning": 0,
+      "truncation_flag_disagreements": 2,
+      "prompt_template_placeholder_present": 3,
+      "max_tokens_logged_per_call": false,
+      "token_usage_logged": false,
+      "interpretation": "Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot12dec",
+      "condition": "fewshot_3shot",
+      "item_opportunities": 3,
+      "attempt_records": 3,
+      "returned_records": 3,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "truncated_records": 3,
+      "final_content_nonempty": 0,
+      "target_present_in_reasoning": 2,
+      "truncation_flag_disagreements": 3,
+      "prompt_template_placeholder_present": 0,
+      "max_tokens_logged_per_call": false,
+      "token_usage_logged": false,
+      "interpretation": "Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot13dec",
+      "condition": "char_spaced_stimuli",
+      "item_opportunities": 3,
+      "attempt_records": 3,
+      "returned_records": 0,
+      "request_error_records": 3,
+      "strict_completed_exact": 0,
+      "truncated_records": 0,
+      "final_content_nonempty": 0,
+      "target_present_in_reasoning": 0,
+      "truncation_flag_disagreements": 0,
+      "prompt_template_placeholder_present": 3,
+      "max_tokens_logged_per_call": false,
+      "token_usage_logged": false,
+      "interpretation": "Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+    }
+  ],
+  "phase2_truncation_flag_disagreements": 20,
+  "combined_stored_correct_flags": 31,
+  "cells": [
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot12dec",
+      "prompt_variant": "direct_mode",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 4,
+      "items_without_response": 0,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "completed_visible_target_contains": 0,
+      "truncated_item_responses": 4,
+      "reasoning_text_nonempty": 4,
+      "target_present_in_reasoning": 2,
+      "mean_response_latency_seconds": 33.05025,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot12dec",
+      "prompt_variant": "retrieved_guidance",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 4,
+      "items_without_response": 0,
+      "request_error_records": 0,
+      "strict_completed_exact": 1,
+      "completed_visible_target_contains": 1,
+      "truncated_item_responses": 3,
+      "reasoning_text_nonempty": 4,
+      "target_present_in_reasoning": 2,
+      "mean_response_latency_seconds": 28.55975,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot12dec",
+      "prompt_variant": "thinking_mode",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 4,
+      "items_without_response": 0,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "completed_visible_target_contains": 0,
+      "truncated_item_responses": 4,
+      "reasoning_text_nonempty": 4,
+      "target_present_in_reasoning": 4,
+      "mean_response_latency_seconds": 36.7655,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot13dec",
+      "prompt_variant": "direct_mode",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 4,
+      "items_without_response": 0,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "completed_visible_target_contains": 0,
+      "truncated_item_responses": 4,
+      "reasoning_text_nonempty": 4,
+      "target_present_in_reasoning": 1,
+      "mean_response_latency_seconds": 30.606749999999998,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot13dec",
+      "prompt_variant": "retrieved_guidance",
+      "item_opportunities": 4,
+      "attempt_records": 7,
+      "returned_item_responses": 4,
+      "items_without_response": 0,
+      "request_error_records": 3,
+      "strict_completed_exact": 2,
+      "completed_visible_target_contains": 2,
+      "truncated_item_responses": 2,
+      "reasoning_text_nonempty": 4,
+      "target_present_in_reasoning": 4,
+      "mean_response_latency_seconds": 30.561,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-30b-a3b",
+      "task": "rot13dec",
+      "prompt_variant": "thinking_mode",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 4,
+      "items_without_response": 0,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "completed_visible_target_contains": 2,
+      "truncated_item_responses": 2,
+      "reasoning_text_nonempty": 4,
+      "target_present_in_reasoning": 4,
+      "mean_response_latency_seconds": 25.628,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot12dec",
+      "prompt_variant": "direct_mode",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 3,
+      "items_without_response": 1,
+      "request_error_records": 1,
+      "strict_completed_exact": 0,
+      "completed_visible_target_contains": 0,
+      "truncated_item_responses": 3,
+      "reasoning_text_nonempty": 3,
+      "target_present_in_reasoning": 1,
+      "mean_response_latency_seconds": 27.534333333333336,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot12dec",
+      "prompt_variant": "retrieved_guidance",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 2,
+      "items_without_response": 2,
+      "request_error_records": 2,
+      "strict_completed_exact": 0,
+      "completed_visible_target_contains": 0,
+      "truncated_item_responses": 2,
+      "reasoning_text_nonempty": 2,
+      "target_present_in_reasoning": 2,
+      "mean_response_latency_seconds": 28.8965,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot12dec",
+      "prompt_variant": "thinking_mode",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 3,
+      "items_without_response": 1,
+      "request_error_records": 1,
+      "strict_completed_exact": 0,
+      "completed_visible_target_contains": 0,
+      "truncated_item_responses": 3,
+      "reasoning_text_nonempty": 3,
+      "target_present_in_reasoning": 0,
+      "mean_response_latency_seconds": 29.987,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot13dec",
+      "prompt_variant": "direct_mode",
+      "item_opportunities": 4,
+      "attempt_records": 7,
+      "returned_item_responses": 4,
+      "items_without_response": 0,
+      "request_error_records": 3,
+      "strict_completed_exact": 0,
+      "completed_visible_target_contains": 0,
+      "truncated_item_responses": 4,
+      "reasoning_text_nonempty": 4,
+      "target_present_in_reasoning": 2,
+      "mean_response_latency_seconds": 37.99375,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot13dec",
+      "prompt_variant": "retrieved_guidance",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 2,
+      "items_without_response": 2,
+      "request_error_records": 2,
+      "strict_completed_exact": 2,
+      "completed_visible_target_contains": 2,
+      "truncated_item_responses": 0,
+      "reasoning_text_nonempty": 2,
+      "target_present_in_reasoning": 2,
+      "mean_response_latency_seconds": 26.761000000000003,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    },
+    {
+      "model_requested": "qwen3-32b",
+      "task": "rot13dec",
+      "prompt_variant": "thinking_mode",
+      "item_opportunities": 4,
+      "attempt_records": 4,
+      "returned_item_responses": 4,
+      "items_without_response": 0,
+      "request_error_records": 0,
+      "strict_completed_exact": 0,
+      "completed_visible_target_contains": 2,
+      "truncated_item_responses": 2,
+      "reasoning_text_nonempty": 4,
+      "target_present_in_reasoning": 4,
+      "mean_response_latency_seconds": 32.50925,
+      "selection_policy": "First returned model response per UID; all request errors remain in the attempt inventory.",
+      "interpretation": "Prompt variants, not verified thinking switches. Guidance is an authored table, not recorded internet retrieval. Tiny sample; checkpoint identities unverified."
+    }
+  ],
+  "identical_payload_groups": [
+    {
+      "payload_sha256": "39059b621de08693dc7694831de9d335f28ca68d0729284a7b17dbcfca7b3270",
+      "record_ids": [
+        "206739e492289dd2702b77bd",
+        "ab38a6ea985eb25972109fde"
+      ],
+      "run_uids": [
+        "claim1_task_probability::rot-13::rot13_shift13::0",
+        "claim2_output_probability::rot13::rot13dec_highprob::0"
+      ],
+      "models": [
+        "not_recorded_in_source_row",
+        "not_recorded_in_source_row"
+      ],
+      "note": "Same prompt, target, content and reasoning. Retained as separate timestamped records, but independence is not established; deterministic repeated requests, reuse or server routing cannot be distinguished here."
+    },
+    {
+      "payload_sha256": "beddbfeecc0b92cc911bedca4ebc1db261fb8e338eb925c1752913d9ab821728",
+      "record_ids": [
+        "3c10344ada86d0a02575207a",
+        "a5f9a27dede27e50a7fafbdd"
+      ],
+      "run_uids": [
+        "claim1_task_probability::rot-12::rot12_shift12::0",
+        "claim2_output_probability::rot12::rot12dec_highprob::0"
+      ],
+      "models": [
+        "not_recorded_in_source_row",
+        "not_recorded_in_source_row"
+      ],
+      "note": "Same prompt, target, content and reasoning. Retained as separate timestamped records, but independence is not established; deterministic repeated requests, reuse or server routing cannot be distinguished here."
+    },
+    {
+      "payload_sha256": "3a864b6f63ebf7c4e13a030c20bc39dad1a63fd22d679e57674f4dc2bf1eeb09",
+      "record_ids": [
+        "8f15fdb920c96b00a9adc766",
+        "a894600818e6c2a3b1dcf27f"
+      ],
+      "run_uids": [
+        "claim1_task_probability::rot-12::rot12_shift12::1",
+        "claim2_output_probability::rot12::rot12dec_highprob::1"
+      ],
+      "models": [
+        "not_recorded_in_source_row",
+        "not_recorded_in_source_row"
+      ],
+      "note": "Same prompt, target, content and reasoning. Retained as separate timestamped records, but independence is not established; deterministic repeated requests, reuse or server routing cannot be distinguished here."
+    },
+    {
+      "payload_sha256": "b3c22163fc0ffcf88a6cc6d77664ffb31ee7b4434db7419ff6c012a5034c0d7b",
+      "record_ids": [
+        "aa3d68fcf098b78c5c3287d4",
+        "8dd797a1f2ade4f9babaa138"
+      ],
+      "run_uids": [
+        "claim1_task_probability::rot-12::rot12_shift12::2",
+        "claim2_output_probability::rot12::rot12dec_highprob::2"
+      ],
+      "models": [
+        "not_recorded_in_source_row",
+        "not_recorded_in_source_row"
+      ],
+      "note": "Same prompt, target, content and reasoning. Retained as separate timestamped records, but independence is not established; deterministic repeated requests, reuse or server routing cannot be distinguished here."
+    },
+    {
+      "payload_sha256": "f70dcb475923d1e3a523677c956f9ef114570c9ea88f72b6117b61b33707de23",
+      "record_ids": [
+        "9148fa153839e1de523f0e71",
+        "64ad2a219abcc291d220489e"
+      ],
+      "run_uids": [
+        "ext::qwen3-30b-a3b::rot-13::retrieved_guidance::0",
+        "ext::qwen3-32b::rot-13::retrieved_guidance::0"
+      ],
+      "models": [
+        "qwen3-30b-a3b",
+        "qwen3-32b"
+      ],
+      "note": "Same prompt, target, content and reasoning. Retained as separate timestamped records, but independence is not established; deterministic repeated requests, reuse or server routing cannot be distinguished here."
+    },
+    {
+      "payload_sha256": "7c50decbc9b51b0f872a79c09374d5107d86f5955d114f70a471cebc34942c2b",
+      "record_ids": [
+        "7763681e3339d2d7882911b1",
+        "d21e10fb5ce0f8fafd1d13f6"
+      ],
+      "run_uids": [
+        "p2::qwen3-30b-a3b::hypB_compute_4096::rot-12::0",
+        "p2::qwen3-32b::hypB_compute_4096::rot-12::0"
+      ],
+      "models": [
+        "qwen3-30b-a3b",
+        "qwen3-32b"
+      ],
+      "note": "Same prompt, target, content and reasoning. Retained as separate timestamped records, but independence is not established; deterministic repeated requests, reuse or server routing cannot be distinguished here."
+    },
+    {
+      "payload_sha256": "9a2979bf61dd1e16e4bf7b7c0bc91d14b17e731161b960e70a3f67ad18185e4a",
+      "record_ids": [
+        "eddf041498503810787c2089",
+        "81c4be3c8f83d9cdb3d073ed"
+      ],
+      "run_uids": [
+        "p2::qwen3-30b-a3b::hypB_compute_4096::rot-12::2",
+        "p2::qwen3-32b::hypB_compute_4096::rot-12::2"
+      ],
+      "models": [
+        "qwen3-30b-a3b",
+        "qwen3-32b"
+      ],
+      "note": "Same prompt, target, content and reasoning. Retained as separate timestamped records, but independence is not established; deterministic repeated requests, reuse or server routing cannot be distinguished here."
+    }
+  ],
+  "effective_thinking_switch_verified": false,
+  "web_retrieval_recorded_in_extension": false,
+  "primary_model_field_missing": 63,
+  "all_imported_answer_keys_oracle_checked": true,
+  "unsupported_claims": [
+    "Confirmed probability mechanism or tokenization cause",
+    "Measured reasoning-token budgets or consumption (per-call configuration/usage not logged)",
+    "Target in reasoning means solved internally",
+    "Architecture effect from requested labels",
+    "Internet retrieval effect from authored tables",
+    "All cells have four returned model responses",
+    "All source records are independent successful experiments",
+    "Phase-1 source flags total 31, not the previously claimed 33",
+    "Phase-2 few-shot calibration confirmed or tokenization hypothesis rejected",
+    "A finite budget pilot proves that more compute cannot help"
+  ]
+}

@@ -1,0 +1,31 @@
+TEAM KYBERS — FINAL HANDOFF
+Kaashvi Saini | Prachi Vats | Ashwin Anand | Aliyah Anand
+
+Required by the Kaggle competition:
+1. Public GitHub repository with code, requirements, documentation and results.
+2. Report PDF: report/Combined_Report.pdf (four pages).
+3. Presentation: slides/Presentation.pptx (five slides), uploaded to Google Drive
+   with a link judges can access. Matching PDF: slides/Presentation.pdf.
+4. Put all three in ONE Kaggle Writeup. Use KAGGLE_WRITEUP.md as the draft.
+5. Check sharing permissions and click Submit; a saved draft does not count.
+
+GitHub: https://github.com/Kaashviw3spaces/Embers-Of-Autoregression
+Report: https://github.com/Kaashviw3spaces/Embers-Of-Autoregression/blob/main/report/Combined_Report.pdf
+Drive PPT: https://docs.google.com/presentation/d/1FXoexbKv0SAWmk9ruZKXXCcJ4u9x8Fek/edit?usp=drivesdk&ouid=105365974121316586168&rtpof=true&sd=true
+
+The Drive upload is verified but is PRIVATE until you change General access to
+Anyone with the link / Viewer. The connector cannot make that change for you.
+Then paste KAGGLE_WRITEUP.md into one Writeup and click Submit yourself.
+
+Extra: Manual_Error_Review.xlsx is deliberately only five completed wrong answers.
+The separate 30-case packet also includes unfinished responses. Participant review
+and surprise-twist results remain unconfirmed, as stated in the report.
+
+Rebuild after installing requirements:
+  python3 rebuild_evidence.py
+Validate:
+  python3 -m unittest discover -s tests
+  python3 validate_submission.py
+
+Use the clean extracted final folder for GitHub. It excludes environment folders,
+old generated reports, caches and original credential-containing source files.

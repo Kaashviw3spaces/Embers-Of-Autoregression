@@ -1,0 +1,9 @@
+model_requested,task,condition,item_opportunities,attempt_records,returned_records,request_error_records,strict_completed_exact,truncated_records,final_content_nonempty,target_present_in_reasoning,truncation_flag_disagreements,prompt_template_placeholder_present,max_tokens_logged_per_call,token_usage_logged,interpretation
+qwen3-30b-a3b,rot12dec,budget_4096_tokens,3,3,3,0,0,3,0,3,3,0,False,False,"Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+qwen3-30b-a3b,rot12dec,char_spaced_stimuli,3,3,3,0,0,3,0,0,3,3,False,False,"Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+qwen3-30b-a3b,rot12dec,fewshot_3shot,3,3,3,0,0,3,0,2,3,0,False,False,"Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+qwen3-30b-a3b,rot13dec,char_spaced_stimuli,3,3,3,0,0,3,0,0,3,3,False,False,"Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+qwen3-32b,rot12dec,budget_4096_tokens,3,3,3,0,0,3,1,3,3,0,False,False,"Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+qwen3-32b,rot12dec,char_spaced_stimuli,3,3,2,1,0,2,0,0,2,3,False,False,"Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+qwen3-32b,rot12dec,fewshot_3shot,3,3,3,0,0,3,0,2,3,0,False,False,"Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."
+qwen3-32b,rot13dec,char_spaced_stimuli,3,3,0,3,0,0,0,0,0,3,False,False,"Exploratory prompt/budget pilot. No completed answers; no causal tokenization, compute-scaling or few-shot claim established."

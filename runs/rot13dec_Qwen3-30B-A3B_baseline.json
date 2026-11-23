@@ -1,0 +1,65 @@
+{
+  "model": "Qwen3-30B-A3B",
+  "stimulus": "rot13dec_highprob",
+  "thinking_mode": false,
+  "has_guidance": false,
+  "accuracy": 0.0,
+  "avg_levenshtein": 50.8,
+  "results": [
+    {
+      "id": 0,
+      "prompt": "Rot-13 is a cipher in which each letter is shifted 13 positions forward in the alphabet. For example, here is a message written in rot-13 along with the original text that it was created from:\nRot-13 text: \"Fgnl urer!\"\nOriginal text: \"Stay here!\"\n\nHere is another message in rot-13. Decode this message to produce the original text:\nRot-13 text: \"Ohg guvf gvzr, gurer znl nyfb or nabgure ernfba.\"\nOriginal text:",
+      "gt": "But this time, there may also be another reason.",
+      "raw_response": "",
+      "parsed_response": "",
+      "correct": false,
+      "lev_distance": 48,
+      "latency": 0.0,
+      "error": "Error code: 403 - The requested model 'Qwen3-30B-A3B' is not available for this API key, or the model name is invalid. Check the models available to you and try again."
+    },
+    {
+      "id": 1,
+      "prompt": "Rot-13 is a cipher in which each letter is shifted 13 positions forward in the alphabet. For example, here is a message written in rot-13 along with the original text that it was created from:\nRot-13 text: \"Fgnl urer!\"\nOriginal text: \"Stay here!\"\n\nHere is another message in rot-13. Decode this message to produce the original text:\nRot-13 text: \"Gb guvf qnl, jr pbagvahr gb sbyybj gurfr cevapvcyrf.\"\nOriginal text:",
+      "gt": "To this day, we continue to follow these principles.",
+      "raw_response": "",
+      "parsed_response": "",
+      "correct": false,
+      "lev_distance": 52,
+      "latency": 0.0,
+      "error": "Error code: 403 - The requested model 'Qwen3-30B-A3B' is not available for this API key, or the model name is invalid. Check the models available to you and try again."
+    },
+    {
+      "id": 2,
+      "prompt": "Rot-13 is a cipher in which each letter is shifted 13 positions forward in the alphabet. For example, here is a message written in rot-13 along with the original text that it was created from:\nRot-13 text: \"Fgnl urer!\"\nOriginal text: \"Stay here!\"\n\nHere is another message in rot-13. Decode this message to produce the original text:\nRot-13 text: \"Jryy, vg jnf abg rknpgyl cynaarq sebz gur ortvaavat.\"\nOriginal text:",
+      "gt": "Well, it was not exactly planned from the beginning.",
+      "raw_response": "",
+      "parsed_response": "",
+      "correct": false,
+      "lev_distance": 52,
+      "latency": 0.0,
+      "error": "Error code: 403 - The requested model 'Qwen3-30B-A3B' is not available for this API key, or the model name is invalid. Check the models available to you and try again."
+    },
+    {
+      "id": 3,
+      "prompt": "Rot-13 is a cipher in which each letter is shifted 13 positions forward in the alphabet. For example, here is a message written in rot-13 along with the original text that it was created from:\nRot-13 text: \"Fgnl urer!\"\nOriginal text: \"Stay here!\"\n\nHere is another message in rot-13. Decode this message to produce the original text:\nRot-13 text: \"V guvax rirelbar unf gurve bja cngu, naq gurl pna znxr vg unccra.\"\nOriginal text:",
+      "gt": "I think everyone has their own path, and they can make it happen.",
+      "raw_response": "",
+      "parsed_response": "",
+      "correct": false,
+      "lev_distance": 65,
+      "latency": 0.0,
+      "error": "Error code: 403 - The requested model 'Qwen3-30B-A3B' is not available for this API key, or the model name is invalid. Check the models available to you and try again."
+    },
+    {
+      "id": 4,
+      "prompt": "Rot-13 is a cipher in which each letter is shifted 13 positions forward in the alphabet. For example, here is a message written in rot-13 along with the original text that it was created from:\nRot-13 text: \"Fgnl urer!\"\nOriginal text: \"Stay here!\"\n\nHere is another message in rot-13. Decode this message to produce the original text:\nRot-13 text: \"V jvyy abg tvir hc rira sbe n zbzrag.\"\nOriginal text:",
+      "gt": "I will not give up even for a moment.",
+      "raw_response": "",
+      "parsed_response": "",
+      "correct": false,
+      "lev_distance": 37,
+      "latency": 0.0,
+      "error": "Error code: 403 - The requested model 'Qwen3-30B-A3B' is not available for this API key, or the model name is invalid. Check the models available to you and try again."
+    }
+  ]
+}

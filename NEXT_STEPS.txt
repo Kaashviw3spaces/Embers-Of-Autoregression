@@ -1,0 +1,59 @@
+WHEN YOU RETURN
+
+1. Open report/Combined_Report.pdf and slides/Presentation.pdf.
+   These now agree with the supplied evidence. The unsupported intervention
+   percentages and significance claims have been removed. The third contribution's
+   actual prompt-variant counts are now included, with errors and limitations.
+   The updated ZIP adds 24 spacing/budget/three-example attempts: 20 returned
+   responses, all unfinished, and four API errors. These add no completed answers.
+   Source truncation flags are preserved; classification follows finish_reason.
+
+2. Complete the required human review.
+   Open report/Review_Packet_30.pdf for 30 simple, source-backed case explanations:
+   5 wrong completed answers and 25 unfinished responses, with supporting excerpts.
+   Full stored text is in MANUAL_FAILURE_REVIEW.csv and the original logs.
+   There is no teammate section. Use the record ID on each case to find its row in
+   the ROOT
+   MANUAL_FAILURE_REVIEW.csv. Fill reviewer_name, human_category, human_notes,
+   and human_verified=True only after personally reading and checking it.
+   The packet and automatic annotations do not complete this requirement for you.
+   Many cases are output-budget truncations; describe them that way. Do not call
+   them failures of the mathematical rule unless the output supports that claim.
+
+3. Rebuild after editing the ROOT review CSV:
+   python3 rebuild_evidence.py
+   python3 -m unittest discover -s tests -v
+   python3 validate_submission.py
+   python3 package_submission.py
+   Reviewer notes in the root CSV are preserved. Editing only an exported copy
+   or REVIEW_FIRST_30.csv will not update the master review.
+
+4. Confirm the remaining evidence, if you have it:
+   - Exact submitted extension prediction and actual submission time/receipt.
+   - Original pilot.jsonl rather than the chat transcription.
+   - Full original teammate ROT-12 outputs instead of the repeated short excerpt.
+   - Original API records/checkpoint explanation for the legacy 32B pilot.
+   - Actual thinking-mode controls and distinct checkpoint mappings.
+   - Surprise-twist instructions and results.
+   Missing evidence remains missing; do not fill results or review fields by guess.
+   The new friend's prompt-only Direct mode is not a verified no-thinking control.
+   Its authored substitution tables are not evidence of internet retrieval.
+   Confirm that all contributors are on the registered team: the brief prohibits
+   sharing code, prompts or results between teams assigned the same paper.
+
+5. Send submission/Embers_Corrected_Combined.zip to the organizers only when
+   you are satisfied with the report and disclosure. The archive is redacted
+   and excludes obsolete generated documents. No submission was sent for you.
+
+WHAT WAS DONE WHILE YOU WERE AWAY
+Original project backed up externally before edits; source run files unchanged.
+All three supplied contributions combined with source IDs and explicit provenance.
+Published-author repo logs and duplicate masters excluded from new experiment counts.
+Scoring fixed to keep final answers separate from reasoning and answer keys.
+Legacy flags preserved separately; strict rescoring is disclosed as a reanalysis.
+Fourteen insufficient ROT-12 excerpts quarantined, not treated as verified failures.
+API errors kept separate; duplicate exports not counted as new runs.
+Report, slides, review queue, reproducible scripts, and redacted bundle rebuilt.
+No model requests, external messages, or submissions were made.
+
+See CORRECTIONS.md and README.md for details and BACKUP_LOCATION.txt for recovery.

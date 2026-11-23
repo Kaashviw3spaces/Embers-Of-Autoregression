@@ -1,0 +1,13 @@
+{
+  "slides": 5,
+  "all_text_boxes_within_page": true,
+  "text_boxes_checked": 101,
+  "team": "Kybers",
+  "authors": [
+    "Kaashvi Saini",
+    "Prachi Vats",
+    "Ashwin Anand",
+    "Aliyah Anand"
+  ],
+  "source": "Audited canonical results; no inference calls"
+}

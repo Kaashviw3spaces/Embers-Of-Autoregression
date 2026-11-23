@@ -1,0 +1,11 @@
+{
+  "scoring_version": "completed-stored-exact-v1",
+  "categories": {
+    "Output-token limit reached": 419,
+    "Extra text; target present (verify final choice)": 36,
+    "Letter-order error": 1,
+    "Incorrect answer or extra explanation": 2,
+    "Word substitution": 1
+  },
+  "human_review_confirmed": 0
+}

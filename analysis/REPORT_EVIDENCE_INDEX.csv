@@ -1,0 +1,147 @@
+record_id,report_section,task,condition,source_file,source_row,finish_reason,strict_exact,completed_with_target,api_error
+55d1f10b6f58d2241a5373f8,Completed error example,acronym1_11,baseline,runs/acronym1_11_qwen3-30b-a3b_baseline_pilot.json,9,stop,False,True,False
+143ccc42a0be89cc5f4d4483,Completed error example,acronym1_11,baseline,runs/acronym1_11_qwen3-32b_baseline_pilot.json,27,stop,False,False,False
+81ea6a3da777295d17c30e26,Completed error example,rot12dec,baseline,evidence/user/redacted/failure_collection.jsonl,1,stop,False,False,False
+3191311135e083e4eb083343,Completed error example,rot13dec,baseline,evidence/user/redacted/failure_collection.jsonl,3,stop,False,False,False
+fdb4b28aab12710e417d1d5f,Completed error example,rot12dec,baseline,evidence/user/redacted/failure_collection.jsonl,11,stop,False,False,False
+206739e492289dd2702b77bd,Multi-task pilot,rot13dec,rot13_shift13,evidence/friend2/logs/raw_runs.jsonl,1,stop,False,True,False
+3c10344ada86d0a02575207a,Multi-task pilot,rot12dec,rot12_shift12,evidence/friend2/logs/raw_runs.jsonl,2,length,False,False,False
+6d0a9dbd51aeb487a5993ee0,Multi-task pilot,rot2dec,rot2_shift2,evidence/friend2/logs/raw_runs.jsonl,3,length,False,False,False
+3f8d3ca42a2e08e5184e8c03,Multi-task pilot,sort_alphabetical,alphabetical_fwd,evidence/friend2/logs/raw_runs.jsonl,4,stop,False,True,False
+abc9dc93eb4f748c99aaddeb,Multi-task pilot,sort_reversealphabetical,reverse_alphabetical_rev,evidence/friend2/logs/raw_runs.jsonl,5,length,False,False,False
+3cac2184187c9298083861e6,Multi-task pilot,sort_ascending,ascending,evidence/friend2/logs/raw_runs.jsonl,6,length,False,False,False
+fab1802f021f56c25696bda0,Multi-task pilot,sort_descending,descending,evidence/friend2/logs/raw_runs.jsonl,7,length,False,False,False
+34b347551f5e30ce0998c4e4,Multi-task pilot,conversion_actual,fahrenheit_actual,evidence/friend2/logs/raw_runs.jsonl,8,stop,False,True,False
+9c25a840943edfe0bfafb51b,Multi-task pilot,conversion_fake,fake_linear,evidence/friend2/logs/raw_runs.jsonl,9,stop,False,True,False
+ab38a6ea985eb25972109fde,Multi-task pilot,rot13dec,rot13dec_highprob,evidence/friend2/logs/raw_runs.jsonl,10,stop,False,True,False
+eae973ae2b42a71ef4be6789,Multi-task pilot,rot13dec,rot13dec_mediumprob,evidence/friend2/logs/raw_runs.jsonl,11,length,False,False,False
+0ee76d6e25b8bc64b1fbccec,Multi-task pilot,rot13dec,rot13dec_lowprob,evidence/friend2/logs/raw_runs.jsonl,12,length,False,False,False
+da94d1387f87adf217c1c889,Multi-task pilot,rot13dec,rot13dec_adversarial,evidence/friend2/logs/raw_runs.jsonl,13,length,False,False,False
+a5f9a27dede27e50a7fafbdd,Multi-task pilot,rot12dec,rot12dec_highprob,evidence/friend2/logs/raw_runs.jsonl,14,length,False,False,False
+1ada3adb0f73285eb5f40e3e,Multi-task pilot,rot12dec,rot12dec_lowprob,evidence/friend2/logs/raw_runs.jsonl,15,length,False,False,False
+f651d72539787c26221b8bfa,Multi-task pilot,word_reverse,revdec_highprob,evidence/friend2/logs/raw_runs.jsonl,16,stop,False,True,False
+242221467d9c6a9733e39962,Multi-task pilot,word_reverse,revdec_mediumprob,evidence/friend2/logs/raw_runs.jsonl,17,stop,False,True,False
+b753dcc1b0d38bfacbe0dfd0,Multi-task pilot,word_reverse,revdec_lowprob,evidence/friend2/logs/raw_runs.jsonl,18,stop,False,True,False
+2b7967281cfdffae82c5a22a,Multi-task pilot,word_reverse,revdec_adversarial,evidence/friend2/logs/raw_runs.jsonl,19,length,False,False,False
+006751444eba94635aca73a0,Multi-task pilot,article_swap_prev,swap_highprob,evidence/friend2/logs/raw_runs.jsonl,20,length,False,False,False
+8ef58d85d2a5f2603b9e387d,Multi-task pilot,article_swap_prev,swap_lowprob,evidence/friend2/logs/raw_runs.jsonl,21,length,False,False,False
+c4eb04421bb6cd6c6ed23fc9,Multi-task pilot,rot13dec,rot13_shift13,evidence/friend2/logs/raw_runs.jsonl,22,length,False,False,False
+6275ea20fae7827be244dab5,Multi-task pilot,rot13dec,rot13_shift13,evidence/friend2/logs/raw_runs.jsonl,23,length,False,False,False
+8f15fdb920c96b00a9adc766,Multi-task pilot,rot12dec,rot12_shift12,evidence/friend2/logs/raw_runs.jsonl,24,length,False,False,False
+aa3d68fcf098b78c5c3287d4,Multi-task pilot,rot12dec,rot12_shift12,evidence/friend2/logs/raw_runs.jsonl,25,length,False,False,False
+a37d8bb03a66dff7abf3b8e1,Multi-task pilot,rot2dec,rot2_shift2,evidence/friend2/logs/raw_runs.jsonl,26,length,False,False,False
+c47636aefb569be0e21f645f,Multi-task pilot,rot2dec,rot2_shift2,evidence/friend2/logs/raw_runs.jsonl,27,length,False,False,False
+5004353f711e81cebd8cce98,Multi-task pilot,sort_alphabetical,alphabetical_fwd,evidence/friend2/logs/raw_runs.jsonl,28,stop,False,True,False
+9355bf5b7676049bad775360,Multi-task pilot,sort_alphabetical,alphabetical_fwd,evidence/friend2/logs/raw_runs.jsonl,29,stop,False,True,False
+206f2168d99d54bf67d497f4,Multi-task pilot,sort_reversealphabetical,reverse_alphabetical_rev,evidence/friend2/logs/raw_runs.jsonl,30,length,False,False,False
+0b4ffae43bba06bda26716ea,Multi-task pilot,sort_reversealphabetical,reverse_alphabetical_rev,evidence/friend2/logs/raw_runs.jsonl,31,length,False,False,False
+87fb147afb9d1d16047b5446,Multi-task pilot,sort_ascending,ascending,evidence/friend2/logs/raw_runs.jsonl,32,length,False,False,False
+169fa1e8af4b9cd643824b56,Multi-task pilot,sort_ascending,ascending,evidence/friend2/logs/raw_runs.jsonl,33,length,False,False,False
+3e428d2f96d14fdd8951f8f3,Multi-task pilot,sort_descending,descending,evidence/friend2/logs/raw_runs.jsonl,34,length,False,False,False
+1a202e0d8d3f1efd5c5e6544,Multi-task pilot,sort_descending,descending,evidence/friend2/logs/raw_runs.jsonl,35,length,False,False,False
+982a246ad9de5f01c23596d5,Multi-task pilot,conversion_actual,fahrenheit_actual,evidence/friend2/logs/raw_runs.jsonl,36,stop,False,True,False
+61771fc6dfe447ba36c99c2d,Multi-task pilot,conversion_actual,fahrenheit_actual,evidence/friend2/logs/raw_runs.jsonl,37,stop,False,True,False
+b39de079bdbd53e29a1e0f3e,Multi-task pilot,conversion_fake,fake_linear,evidence/friend2/logs/raw_runs.jsonl,38,stop,False,True,False
+a4bd9661f8c5ebefd3344cb4,Multi-task pilot,conversion_fake,fake_linear,evidence/friend2/logs/raw_runs.jsonl,39,stop,False,True,False
+0e6837c8a8df4a3f168575e1,Multi-task pilot,rot13dec,rot13dec_highprob,evidence/friend2/logs/raw_runs.jsonl,40,length,False,False,False
+1cbb67507a96cebcf90ee506,Multi-task pilot,rot13dec,rot13dec_highprob,evidence/friend2/logs/raw_runs.jsonl,41,length,False,False,False
+e9e30bdcad63faa12cc0151d,Multi-task pilot,rot13dec,rot13dec_mediumprob,evidence/friend2/logs/raw_runs.jsonl,42,length,False,False,False
+04c7be65c25403980bdb7fee,Multi-task pilot,rot13dec,rot13dec_mediumprob,evidence/friend2/logs/raw_runs.jsonl,43,length,False,False,False
+fac85feadc37148ef4c3adc5,Multi-task pilot,rot13dec,rot13dec_lowprob,evidence/friend2/logs/raw_runs.jsonl,44,length,False,False,False
+2fcc3507e958185fcf1da617,Multi-task pilot,rot13dec,rot13dec_lowprob,evidence/friend2/logs/raw_runs.jsonl,45,length,False,False,False
+cab7c272fdf920c497273482,Multi-task pilot,rot13dec,rot13dec_adversarial,evidence/friend2/logs/raw_runs.jsonl,46,length,False,False,False
+09353b7e3ef8075a026d4dd9,Multi-task pilot,rot13dec,rot13dec_adversarial,evidence/friend2/logs/raw_runs.jsonl,47,length,False,False,False
+a894600818e6c2a3b1dcf27f,Multi-task pilot,rot12dec,rot12dec_highprob,evidence/friend2/logs/raw_runs.jsonl,48,length,False,False,False
+8dd797a1f2ade4f9babaa138,Multi-task pilot,rot12dec,rot12dec_highprob,evidence/friend2/logs/raw_runs.jsonl,49,length,False,False,False
+74e64059fff24eaec0f9b0e1,Multi-task pilot,rot12dec,rot12dec_lowprob,evidence/friend2/logs/raw_runs.jsonl,50,length,False,False,False
+67195699f0823d6d12c58c89,Multi-task pilot,rot12dec,rot12dec_lowprob,evidence/friend2/logs/raw_runs.jsonl,51,length,False,False,False
+674e4b5c9ebd8fcf9ba63840,Multi-task pilot,word_reverse,revdec_highprob,evidence/friend2/logs/raw_runs.jsonl,52,stop,False,True,False
+a29ef0e42cf01b16b385d77e,Multi-task pilot,word_reverse,revdec_highprob,evidence/friend2/logs/raw_runs.jsonl,53,stop,False,True,False
+ad40ddf113f2684fc45ca32a,Multi-task pilot,word_reverse,revdec_mediumprob,evidence/friend2/logs/raw_runs.jsonl,54,length,False,False,False
+f5e0c7f2e88d597a5875a6fe,Multi-task pilot,word_reverse,revdec_lowprob,evidence/friend2/logs/raw_runs.jsonl,55,length,False,False,False
+9dafb9b1f464cccd9a3ad3bb,Multi-task pilot,word_reverse,revdec_mediumprob,evidence/friend2/logs/raw_runs.jsonl,56,stop,False,True,False
+57f53b773171299e4f6a49f6,Multi-task pilot,word_reverse,revdec_adversarial,evidence/friend2/logs/raw_runs.jsonl,57,stop,False,True,False
+b784ceda986e9debc817a27b,Multi-task pilot,word_reverse,revdec_lowprob,evidence/friend2/logs/raw_runs.jsonl,58,stop,False,True,False
+862cc89381f74729a55f02b2,Multi-task pilot,word_reverse,revdec_adversarial,evidence/friend2/logs/raw_runs.jsonl,59,stop,False,True,False
+dc67537287c16a492f2f46fc,Multi-task pilot,article_swap_prev,swap_highprob,evidence/friend2/logs/raw_runs.jsonl,60,length,False,False,False
+253450451308028287aa31ea,Multi-task pilot,article_swap_prev,swap_lowprob,evidence/friend2/logs/raw_runs.jsonl,61,length,False,False,False
+53bdab0ee6c01a7fe7ed6f39,Multi-task pilot,article_swap_prev,swap_lowprob,evidence/friend2/logs/raw_runs.jsonl,62,length,False,False,False
+c7789c4b1a6372ae5edd0d68,Multi-task pilot,article_swap_prev,swap_highprob,evidence/friend2/logs/raw_runs.jsonl,63,length,False,False,False
+4f113b33dd05c1e4033d3383,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,1,length,False,False,False
+a315fe2716863217a379abbf,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,2,length,False,False,False
+4f46f46670906847c81d4bd0,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,3,length,False,False,False
+50e3e62afb8e508a9b0eb77c,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,4,length,False,False,False
+aaa30e599fdc22ea727f98f8,Prompt extensions,rot13dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,5,stop,False,True,False
+106d5dc9e92a60c639c3a597,Prompt extensions,rot13dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,6,length,False,False,False
+08c5d61dc41a5c0922bada8f,Prompt extensions,rot13dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,7,length,False,False,False
+b5bc2b8ab9a7ca2aa61d03c3,Prompt extensions,rot13dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,8,stop,False,True,False
+aea2e8ea93f5728b8fca65ba,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,9,error,,,True
+1ff01852b4d1f67cec537d85,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,10,error,,,True
+821218b2c056771ca486e7e3,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,11,error,,,True
+37698c45dfb1cc46668bc884,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,12,length,False,False,False
+fd2cf807c50232e57e78bdc4,Prompt extensions,rot12dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,13,length,False,False,False
+460bab0b36f3308f8b11c0e7,Prompt extensions,rot12dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,14,length,False,False,False
+26f26041a8bc4c2e3ec84788,Prompt extensions,rot12dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,15,length,False,False,False
+ab72200a5a1b6e32da0af53f,Prompt extensions,rot12dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,16,length,False,False,False
+d36a0701304a51d65fb23c6a,Prompt extensions,rot12dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,17,length,False,False,False
+f7b8117d923b751fa25b48f2,Prompt extensions,rot12dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,18,length,False,False,False
+4789b5afee92de130057cdf6,Prompt extensions,rot12dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,19,length,False,False,False
+776f29c4c3a1b6da7110854e,Prompt extensions,rot12dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,20,length,False,False,False
+df941e2627584a33e4569f74,Prompt extensions,rot12dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,21,length,False,False,False
+23a044f6749e1cc297b910eb,Prompt extensions,rot12dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,22,length,False,False,False
+c615315fe4ad8df9f5f0c012,Prompt extensions,rot12dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,23,stop,True,True,False
+1f6f92ab7b8bde42f76233d5,Prompt extensions,rot12dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,24,length,False,False,False
+1d7849a5c3830e73faf3c7dd,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,25,error,,,True
+d77e6acb0eafcbf81b5ca92b,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,26,error,,,True
+d97b5c5ff6ac787d4173d671,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,27,error,,,True
+1b6a42c65a21fb8d19a0fe98,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,28,length,False,False,False
+9148fa153839e1de523f0e71,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,29,stop,True,True,False
+7ddc29d71f69aa1d11aa8e73,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,30,stop,True,True,False
+5ea6abcf467f129e6577c21e,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,31,length,False,False,False
+6320962f86dff85af58e9974,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,32,length,False,False,False
+9f160c57a912e91ef6fb1025,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,33,length,False,False,False
+e36754edba52c02ba1122908,Prompt extensions,rot13dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,34,length,False,False,False
+ce0f80e7ad2864190aa89736,Prompt extensions,rot13dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,35,stop,False,True,False
+24882a5113b2fd6b6ab8d173,Prompt extensions,rot13dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,36,stop,False,True,False
+8ae6aacb7db1d7ff96452e9b,Prompt extensions,rot13dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,37,length,False,False,False
+64ad2a219abcc291d220489e,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,38,stop,True,True,False
+3622f1d41ca25f8f0175363c,Prompt extensions,rot13dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,39,length,False,False,False
+7405844a9773416d859a3164,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,40,error,,,True
+3ce7dd004851af31506ca3c4,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,41,stop,True,True,False
+ba5f9ca7dbb1c1f71503ae7b,Prompt extensions,rot13dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,42,error,,,True
+bc8f1472724d9df9679a79e5,Prompt extensions,rot12dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,43,length,False,False,False
+93f11e88bfb67460a4c5f5a7,Prompt extensions,rot12dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,44,length,False,False,False
+d0cff510053a30cd40b0f6ad,Prompt extensions,rot12dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,45,length,False,False,False
+f04ebc0c4a7fa3132e36b5ed,Prompt extensions,rot12dec,direct_mode,evidence/friend2/logs/extension_runs.jsonl,46,error,,,True
+7c901a2f752deda9b18e8337,Prompt extensions,rot12dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,47,length,False,False,False
+f8f9ff0e152ab73392b26f8c,Prompt extensions,rot12dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,48,length,False,False,False
+134887e35b99d99b34134a82,Prompt extensions,rot12dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,49,length,False,False,False
+4d2dd42deeb496389fd822bd,Prompt extensions,rot12dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,50,length,False,False,False
+b3f77a55135190b2f932e1f1,Prompt extensions,rot12dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,51,length,False,False,False
+a62b25c89284e8ae13db2258,Prompt extensions,rot12dec,thinking_mode,evidence/friend2/logs/extension_runs.jsonl,52,error,,,True
+423916fa1b86c45d4a4af3b3,Prompt extensions,rot12dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,53,error,,,True
+89d998c11cb4c0ae3618b94f,Prompt extensions,rot12dec,retrieved_guidance,evidence/friend2/logs/extension_runs.jsonl,54,error,,,True
+f7f281a40d68e932865ad9b7,New spacing/budget/few-shot tests,rot13dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,1,length,False,False,False
+89a0939878a5f758bde45baf,New spacing/budget/few-shot tests,rot13dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,2,length,False,False,False
+6ecf254cfa9887620d58054b,New spacing/budget/few-shot tests,rot13dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,3,length,False,False,False
+67f6d2e0ed66085e27804da5,New spacing/budget/few-shot tests,rot12dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,4,length,False,False,False
+bc52dd4acc0da60b8c3a813c,New spacing/budget/few-shot tests,rot12dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,5,length,False,False,False
+652f59f4be7200f53f9514e7,New spacing/budget/few-shot tests,rot12dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,6,length,False,False,False
+7763681e3339d2d7882911b1,New spacing/budget/few-shot tests,rot12dec,budget_4096_tokens,evidence/friend2/logs/extension_phase2_runs.jsonl,7,length,False,False,False
+fc242e8d29789ebb3a364570,New spacing/budget/few-shot tests,rot12dec,budget_4096_tokens,evidence/friend2/logs/extension_phase2_runs.jsonl,8,length,False,False,False
+eddf041498503810787c2089,New spacing/budget/few-shot tests,rot12dec,budget_4096_tokens,evidence/friend2/logs/extension_phase2_runs.jsonl,9,length,False,False,False
+7adb00dae87ba5519e847081,New spacing/budget/few-shot tests,rot12dec,fewshot_3shot,evidence/friend2/logs/extension_phase2_runs.jsonl,10,length,False,False,False
+382d670fa059d85ce21115fd,New spacing/budget/few-shot tests,rot12dec,fewshot_3shot,evidence/friend2/logs/extension_phase2_runs.jsonl,11,length,False,False,False
+880d695665c6b26e69271985,New spacing/budget/few-shot tests,rot12dec,fewshot_3shot,evidence/friend2/logs/extension_phase2_runs.jsonl,12,length,False,False,False
+2824ed41aa85d8c5ca41cc1c,New spacing/budget/few-shot tests,rot13dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,13,error,,,True
+65267f64f5f9bd48ead035b1,New spacing/budget/few-shot tests,rot13dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,14,error,,,True
+41a0e3723b8294cf162f523f,New spacing/budget/few-shot tests,rot13dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,15,error,,,True
+1be1b43f1a1ae697e550e945,New spacing/budget/few-shot tests,rot12dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,16,error,,,True
+4809c2e71c274037ed5809fb,New spacing/budget/few-shot tests,rot12dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,17,length,False,False,False
+d21e10fb5ce0f8fafd1d13f6,New spacing/budget/few-shot tests,rot12dec,budget_4096_tokens,evidence/friend2/logs/extension_phase2_runs.jsonl,18,length,False,False,False
+444c0b62e1ca26b9f7538454,New spacing/budget/few-shot tests,rot12dec,char_spaced_stimuli,evidence/friend2/logs/extension_phase2_runs.jsonl,19,length,False,False,False
+aa6de5d37c1629b5a1bf674e,New spacing/budget/few-shot tests,rot12dec,budget_4096_tokens,evidence/friend2/logs/extension_phase2_runs.jsonl,20,length,False,False,False
+81c4be3c8f83d9cdb3d073ed,New spacing/budget/few-shot tests,rot12dec,budget_4096_tokens,evidence/friend2/logs/extension_phase2_runs.jsonl,21,length,False,False,False
+d36495f015fca866536967e5,New spacing/budget/few-shot tests,rot12dec,fewshot_3shot,evidence/friend2/logs/extension_phase2_runs.jsonl,22,length,False,False,False
+da62daa55ac62d1cf10ec261,New spacing/budget/few-shot tests,rot12dec,fewshot_3shot,evidence/friend2/logs/extension_phase2_runs.jsonl,23,length,False,False,False
+7d35eb24d23eb9935324b76f,New spacing/budget/few-shot tests,rot12dec,fewshot_3shot,evidence/friend2/logs/extension_phase2_runs.jsonl,24,length,False,False,False

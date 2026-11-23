@@ -1,0 +1,130 @@
+{
+  "source_archive": "/Users/kashvi/.t3/userdata/attachments/80f358c9-c128-4ac2-a4b1-8e9aaaf47d79-4386da58-2381-478e-929a-684e75f8563b-zip.zip",
+  "source_archive_sha256": "a223d0ef1f1d7a92407dcbbed89780ef1ed45d0c08d15158beb21cd26acf7b01",
+  "snapshot_at": "2026-11-23T19:10:24.486338+00:00",
+  "source_unchanged": true,
+  "source_reference_scripts": "Redacted copies for inspection only; not executed by the corrected pipeline.",
+  "excluded": "Published datasets beyond the selected benchmarks, generated master duplicates as experiments, and scripts as executable pipeline code.",
+  "files": {
+    "docs/student_learning_curve.md": {
+      "original_sha256": "a767065535cb1d2291bf63df187ea7218b3f5b1d5f23445abdf7d50d438d7c96",
+      "snapshot_sha256": "a310ad25789427915e59ca09caec61c18f957177881bb4d4d684389d5ee024e6",
+      "redaction_and_reserialization_applied": true
+    },
+    "README.md": {
+      "original_sha256": "4f9f558a6d167150772d2b004d6ae29f20fd5cd386fad4b1a11e646ff61e05f1",
+      "snapshot_sha256": "ecbeb97871a3bc6b1a46114ecfad29f87599ce56e9c077d28904491a73e1fa3d",
+      "redaction_and_reserialization_applied": true
+    },
+    "results/extension_phase2_findings.md": {
+      "original_sha256": "6be1bb44850aff203cd47c3ce043a7e3f09be329e07e785e96e65582829e8d78",
+      "snapshot_sha256": "b5eed75d2c75118337a30e0929e0861b42f48af8874ea2f9b3eb8041e02fb33b",
+      "redaction_and_reserialization_applied": true
+    },
+    "results/paper_vs_simulation_comparison.md": {
+      "original_sha256": "58adc9964788a58c29751c1f2593575c2e7d6393c94d6f1da66d92436901933c",
+      "snapshot_sha256": "d92096988bb0ab941159257fa0cc115e428fe3e3b2ff7ff9c41d06432df60f34",
+      "redaction_and_reserialization_applied": true
+    },
+    "results/extension_findings.md": {
+      "original_sha256": "c73ba41cd906e69e6171499a0c404336e591e964ac8a42c5e0cdf0ffd23a0fe4",
+      "snapshot_sha256": "e8fc73358f753f56695a755331ac39cb43ec20ef764bb82683671c015360313d",
+      "redaction_and_reserialization_applied": true
+    },
+    "logs/MASTER_EXPERIMENT_LOG.md": {
+      "original_sha256": "620bfa24c529a8636062a036f5c3971478f488a84cfb20acac9468b411a63842",
+      "snapshot_sha256": "568a81e3a3135be5809820a50f848c9df3ed37460b531a1876d19e4ab34d49c6",
+      "redaction_and_reserialization_applied": true
+    },
+    "logs/extension_experiment_log.md": {
+      "original_sha256": "e816a222b2e3ea75e88a43ea53908c70b41f4e44a826acb22210c8424ebbb15e",
+      "snapshot_sha256": "0bf175c718eda111e637ecacba775f186918eabd1fdef0ae9cc9483ee029b188",
+      "redaction_and_reserialization_applied": true
+    },
+    "logs/extension_phase2_runs.jsonl": {
+      "original_sha256": "c6b92377cdf88cf0819a4e1559fc1b361b055c21b929d383d4727a64599127a1",
+      "snapshot_sha256": "8340958d33dc141f216f39a7ed81bdab5a4d9dfe8f5e74999c31723881826323",
+      "redaction_and_reserialization_applied": true
+    },
+    "logs/extension_phase2_experiment_log.md": {
+      "original_sha256": "46f685444b162d0f5ab0f24b966e5305e161119ea95eb326a47d596395243fda",
+      "snapshot_sha256": "254077af2d1d87dd6c21001cf1fe82dcaeb97bb708c6fe3e295a9eaacc44e765",
+      "redaction_and_reserialization_applied": true
+    },
+    "logs/raw_runs.jsonl": {
+      "original_sha256": "2f3be0ca5a8b27c0d99c57c5710ffb3eed4eca9befc355f68c6f0f9b73123f37",
+      "snapshot_sha256": "986a5e73653217c838bba74c972d68ee5f5deb9df1989bbe3132f2061aaf83f2",
+      "redaction_and_reserialization_applied": true
+    },
+    "logs/experiment_log.md": {
+      "original_sha256": "eb8aa0ec58b62c6834e2c4a8c814f8ab566333c0fe4e4cb84d2d23c3729f66a2",
+      "snapshot_sha256": "cd37cdbf5bc48faf1c93cdee96fb96f1551e9efb0c41096d382e7cf9a51d2bff",
+      "redaction_and_reserialization_applied": true
+    },
+    "logs/all_runs_master.jsonl": {
+      "original_sha256": "c1067c621ce1c94f9261e84463ff20e300974168b443e14b7167473cdafc7721",
+      "snapshot_sha256": "c1067c621ce1c94f9261e84463ff20e300974168b443e14b7167473cdafc7721",
+      "redaction_and_reserialization_applied": true
+    },
+    "logs/LOG_MANIFEST.md": {
+      "original_sha256": "95b91bdebb17234c43b9492c72f0ed7a049449c436079ee1dc5e7ac0debd040a",
+      "snapshot_sha256": "a4ee3003900cfcbf783aedb60a0e97c35a409cdc48066335db4d8e667e8583da",
+      "redaction_and_reserialization_applied": true
+    },
+    "logs/extension_runs.jsonl": {
+      "original_sha256": "95dd643bb1077cbed261c3de2dce6549061adcecfd6cad3a3edb35a50145f0b6",
+      "snapshot_sha256": "495aec98a80c428d5ab85504d1461af0baec541d3573d8cd922094316317dd8d",
+      "redaction_and_reserialization_applied": true
+    },
+    "data/benchmark_subsets/smoke_test_suite.jsonl": {
+      "original_sha256": "af7da235b697fd48133e6cd678d0e121acf9f1d76cd8e4575ca6005f699e1873",
+      "snapshot_sha256": "af7da235b697fd48133e6cd678d0e121acf9f1d76cd8e4575ca6005f699e1873",
+      "redaction_and_reserialization_applied": true
+    },
+    "data/benchmark_subsets/claim1_core_benchmark.jsonl": {
+      "original_sha256": "0bca49f0d54a676c19cbc5c21d9f7c58404b2efb1ea6948716b9dd3e1d243fb5",
+      "snapshot_sha256": "0bca49f0d54a676c19cbc5c21d9f7c58404b2efb1ea6948716b9dd3e1d243fb5",
+      "redaction_and_reserialization_applied": true
+    },
+    "data/benchmark_subsets/claim2_core_benchmark.jsonl": {
+      "original_sha256": "857346cbbcaf65d9fb8c701b3618282e1ca70f2d555a793d1ac9929895bc838f",
+      "snapshot_sha256": "857346cbbcaf65d9fb8c701b3618282e1ca70f2d555a793d1ac9929895bc838f",
+      "redaction_and_reserialization_applied": true
+    },
+    "src/build_master_log.py": {
+      "original_sha256": "2fb65547ec5144eec34000e3595400743f1a023d2b42326686c25e2bbda217c6",
+      "snapshot_sha256": "2fb65547ec5144eec34000e3595400743f1a023d2b42326686c25e2bbda217c6",
+      "redaction_and_reserialization_applied": true
+    },
+    "src/runner.py": {
+      "original_sha256": "0b2b962515d8a4f6377e8427b379fa7072d4d58d0fe3277aece98dbbff86d617",
+      "snapshot_sha256": "6295203d033e8db917ae7872dbcd07e476493ed09fb07f6dd5a8529d9a7f3eb5",
+      "redaction_and_reserialization_applied": true
+    },
+    "src/generate_extension_summary.py": {
+      "original_sha256": "f489d76b9a481ad58b50d4087bb37dc16547a8025a248e48df674710ebb137db",
+      "snapshot_sha256": "f489d76b9a481ad58b50d4087bb37dc16547a8025a248e48df674710ebb137db",
+      "redaction_and_reserialization_applied": true
+    },
+    "src/extension_phase2_runner.py": {
+      "original_sha256": "a39cc1d1b5356edbf61487207c2d75e3b36a1e1448c323d7839d1062dc93eeff",
+      "snapshot_sha256": "2f0b582626020fa20bf08e0fb68f87958fa69cc6e73aeba444045d062c730105",
+      "redaction_and_reserialization_applied": true
+    },
+    "src/build_experiment_log.py": {
+      "original_sha256": "d78a936ab6b64331c746b65e030ec8aac8c2537e8ae29638791b3acde31d7367",
+      "snapshot_sha256": "d78a936ab6b64331c746b65e030ec8aac8c2537e8ae29638791b3acde31d7367",
+      "redaction_and_reserialization_applied": true
+    },
+    "src/extension_runner.py": {
+      "original_sha256": "23fcd151f0699b9928eac746ac8f49d5613decdd79faa4957e39e9b050985971",
+      "snapshot_sha256": "481581cdb23923078189fb33ef9d6f34009a7cb300f4a569729709cacddfed99",
+      "redaction_and_reserialization_applied": true
+    },
+    "src/generate_master_log.py": {
+      "original_sha256": "aea30f0fa8f6c41d91368de919217f5fe90bb91cb42b4b2dcd00c4a985baf74a",
+      "snapshot_sha256": "aea30f0fa8f6c41d91368de919217f5fe90bb91cb42b4b2dcd00c4a985baf74a",
+      "redaction_and_reserialization_applied": true
+    }
+  }
+}

@@ -1,0 +1,6 @@
+category,count,classification
+Extra text; target present (verify final choice),36,AI/deterministic draft; not participant review
+Incorrect answer or extra explanation,2,AI/deterministic draft; not participant review
+Letter-order error,1,AI/deterministic draft; not participant review
+Output-token limit reached,419,AI/deterministic draft; not participant review
+Word substitution,1,AI/deterministic draft; not participant review

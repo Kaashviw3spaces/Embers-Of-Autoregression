@@ -1,0 +1,126 @@
+{
+  "archive_sha256": "a223d0ef1f1d7a92407dcbbed89780ef1ed45d0c08d15158beb21cd26acf7b01",
+  "changes": [
+    {
+      "file": "docs/student_learning_curve.md",
+      "change": "unchanged",
+      "original_sha256": "a767065535cb1d2291bf63df187ea7218b3f5b1d5f23445abdf7d50d438d7c96"
+    },
+    {
+      "file": "README.md",
+      "change": "unchanged",
+      "original_sha256": "4f9f558a6d167150772d2b004d6ae29f20fd5cd386fad4b1a11e646ff61e05f1"
+    },
+    {
+      "file": "results/extension_phase2_findings.md",
+      "change": "added",
+      "original_sha256": "6be1bb44850aff203cd47c3ce043a7e3f09be329e07e785e96e65582829e8d78"
+    },
+    {
+      "file": "results/paper_vs_simulation_comparison.md",
+      "change": "unchanged",
+      "original_sha256": "58adc9964788a58c29751c1f2593575c2e7d6393c94d6f1da66d92436901933c"
+    },
+    {
+      "file": "results/extension_findings.md",
+      "change": "unchanged",
+      "original_sha256": "c73ba41cd906e69e6171499a0c404336e591e964ac8a42c5e0cdf0ffd23a0fe4"
+    },
+    {
+      "file": "logs/MASTER_EXPERIMENT_LOG.md",
+      "change": "changed",
+      "original_sha256": "620bfa24c529a8636062a036f5c3971478f488a84cfb20acac9468b411a63842"
+    },
+    {
+      "file": "logs/extension_experiment_log.md",
+      "change": "unchanged",
+      "original_sha256": "e816a222b2e3ea75e88a43ea53908c70b41f4e44a826acb22210c8424ebbb15e"
+    },
+    {
+      "file": "logs/extension_phase2_runs.jsonl",
+      "change": "added",
+      "original_sha256": "c6b92377cdf88cf0819a4e1559fc1b361b055c21b929d383d4727a64599127a1"
+    },
+    {
+      "file": "logs/extension_phase2_experiment_log.md",
+      "change": "added",
+      "original_sha256": "46f685444b162d0f5ab0f24b966e5305e161119ea95eb326a47d596395243fda"
+    },
+    {
+      "file": "logs/raw_runs.jsonl",
+      "change": "unchanged",
+      "original_sha256": "2f3be0ca5a8b27c0d99c57c5710ffb3eed4eca9befc355f68c6f0f9b73123f37"
+    },
+    {
+      "file": "logs/experiment_log.md",
+      "change": "unchanged",
+      "original_sha256": "eb8aa0ec58b62c6834e2c4a8c814f8ab566333c0fe4e4cb84d2d23c3729f66a2"
+    },
+    {
+      "file": "logs/all_runs_master.jsonl",
+      "change": "changed",
+      "original_sha256": "c1067c621ce1c94f9261e84463ff20e300974168b443e14b7167473cdafc7721"
+    },
+    {
+      "file": "logs/LOG_MANIFEST.md",
+      "change": "unchanged",
+      "original_sha256": "95b91bdebb17234c43b9492c72f0ed7a049449c436079ee1dc5e7ac0debd040a"
+    },
+    {
+      "file": "logs/extension_runs.jsonl",
+      "change": "unchanged",
+      "original_sha256": "95dd643bb1077cbed261c3de2dce6549061adcecfd6cad3a3edb35a50145f0b6"
+    },
+    {
+      "file": "data/benchmark_subsets/smoke_test_suite.jsonl",
+      "change": "unchanged",
+      "original_sha256": "af7da235b697fd48133e6cd678d0e121acf9f1d76cd8e4575ca6005f699e1873"
+    },
+    {
+      "file": "data/benchmark_subsets/claim1_core_benchmark.jsonl",
+      "change": "unchanged",
+      "original_sha256": "0bca49f0d54a676c19cbc5c21d9f7c58404b2efb1ea6948716b9dd3e1d243fb5"
+    },
+    {
+      "file": "data/benchmark_subsets/claim2_core_benchmark.jsonl",
+      "change": "unchanged",
+      "original_sha256": "857346cbbcaf65d9fb8c701b3618282e1ca70f2d555a793d1ac9929895bc838f"
+    },
+    {
+      "file": "src/build_master_log.py",
+      "change": "added",
+      "original_sha256": "2fb65547ec5144eec34000e3595400743f1a023d2b42326686c25e2bbda217c6"
+    },
+    {
+      "file": "src/runner.py",
+      "change": "unchanged",
+      "original_sha256": "0b2b962515d8a4f6377e8427b379fa7072d4d58d0fe3277aece98dbbff86d617"
+    },
+    {
+      "file": "src/generate_extension_summary.py",
+      "change": "unchanged",
+      "original_sha256": "f489d76b9a481ad58b50d4087bb37dc16547a8025a248e48df674710ebb137db"
+    },
+    {
+      "file": "src/extension_phase2_runner.py",
+      "change": "added",
+      "original_sha256": "a39cc1d1b5356edbf61487207c2d75e3b36a1e1448c323d7839d1062dc93eeff"
+    },
+    {
+      "file": "src/build_experiment_log.py",
+      "change": "unchanged",
+      "original_sha256": "d78a936ab6b64331c746b65e030ec8aac8c2537e8ae29638791b3acde31d7367"
+    },
+    {
+      "file": "src/extension_runner.py",
+      "change": "unchanged",
+      "original_sha256": "23fcd151f0699b9928eac746ac8f49d5613decdd79faa4957e39e9b050985971"
+    },
+    {
+      "file": "src/generate_master_log.py",
+      "change": "unchanged",
+      "original_sha256": "aea30f0fa8f6c41d91368de919217f5fe90bb91cb42b4b2dcd00c4a985baf74a"
+    }
+  ],
+  "no_source_scripts_executed": true
+}

@@ -1,0 +1,69 @@
+{
+  "source_records": 596,
+  "returned_outputs": 554,
+  "request_errors": 42,
+  "primary": [
+    {
+      "label": "ROT-13 / ordinary",
+      "completed_with_target": 1,
+      "n": 3,
+      "condition": "rot13dec_highprob"
+    },
+    {
+      "label": "ROT-13 / reordered",
+      "completed_with_target": 0,
+      "n": 3,
+      "condition": "rot13dec_lowprob"
+    },
+    {
+      "label": "Reversal / ordinary",
+      "completed_with_target": 3,
+      "n": 3,
+      "condition": "revdec_highprob"
+    },
+    {
+      "label": "Reversal / reordered",
+      "completed_with_target": 2,
+      "n": 3,
+      "condition": "revdec_lowprob"
+    },
+    {
+      "label": "Alphabetical / forward",
+      "completed_with_target": 3,
+      "n": 3,
+      "condition": "alphabetical_fwd"
+    },
+    {
+      "label": "Alphabetical / reverse",
+      "completed_with_target": 0,
+      "n": 3,
+      "condition": "reverse_alphabetical_rev"
+    }
+  ],
+  "rot12_30b": {
+    "direct_mode": {
+      "exact": 0,
+      "replies": 4
+    },
+    "retrieved_guidance": {
+      "exact": 1,
+      "replies": 4
+    },
+    "thinking_mode": {
+      "exact": 0,
+      "replies": 4
+    }
+  },
+  "phase2": {
+    "source_records": 24,
+    "distinct_uids": 24,
+    "returned_records": 20,
+    "request_error_records": 4,
+    "strict_completed_exact": 0,
+    "completed_visible_target_contains": 0,
+    "truncated_records": 20,
+    "stored_correct_flags": 0,
+    "target_present_in_reasoning": 10
+  },
+  "source_index": "analysis/REPORT_EVIDENCE_INDEX.csv"
+}

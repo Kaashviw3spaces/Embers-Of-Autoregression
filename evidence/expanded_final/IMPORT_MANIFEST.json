@@ -1,0 +1,92 @@
+{
+  "source_directory": "/Users/kashvi/Downloads/embers_expanded_campaign_complete",
+  "audited_at": "2026-11-23T19:40:20.157812+00:00",
+  "all_files_audited": 82,
+  "canonical_run_files": 22,
+  "canonical_source_rows": 428,
+  "new_run_files": [
+    "counting_words_common_qwen3-30b-a3b_baseline_smoke.json",
+    "counting_words_common_qwen3-32b_baseline_smoke.json",
+    "counting_words_rare_qwen3-30b-a3b_baseline_smoke.json",
+    "multiplication_word_qwen3-30b-a3b_baseline_smoke.json",
+    "pigdec_ay_highprob_qwen3-30b-a3b_baseline_smoke.json",
+    "pigdec_say_highprob_qwen3-30b-a3b_baseline_smoke.json",
+    "revdec_highprob_qwen3-30b-a3b_baseline_smoke.json",
+    "revdec_highprob_qwen3-32b_baseline_smoke.json",
+    "revdec_lowprob_qwen3-30b-a3b_baseline_smoke.json",
+    "sorting_rev_10shot_qwen3-30b-a3b_baseline_smoke.json",
+    "swap_next_base_highprob_qwen3-30b-a3b_baseline_smoke.json",
+    "swap_next_base_lowprob_qwen3-30b-a3b_baseline_smoke.json"
+  ],
+  "new_source_rows": 56,
+  "existing_source_rows_not_reimported": 372,
+  "source_unchanged": true,
+  "source_scripts_executed": false,
+  "files": {
+    "runs/counting_words_common_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/counting_words_common_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "d255fed5ab3e5d16b5bab863ef441667034cc5836f5c499b6076a848fe3c6d60",
+      "snapshot_sha256": "2ccf7c183c52459d9b89f05c37082ce70f7f420b23b2d3f1ac61dfe67f690049"
+    },
+    "runs/counting_words_common_qwen3-32b_baseline_smoke.json": {
+      "destination": "runs/counting_words_common_qwen3-32b_baseline_smoke.json",
+      "original_sha256": "dcc6a1f0d4360484954ba30dd64f5010afe3d16d61874ae34e9fec3126f96a6c",
+      "snapshot_sha256": "2a0732eebcd4d027548e4a5214c7d5391888444811421525ea98a4339431e3c8"
+    },
+    "runs/counting_words_rare_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/counting_words_rare_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "5883183963f841d0d94b1a19fd3d3324b1b97a701c18829b7c1118692f951465",
+      "snapshot_sha256": "18bb7aea81397a4dc21ba674c6341c4d870ebed9d3fe6e1c8a2accb7d2225ab3"
+    },
+    "runs/multiplication_word_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/multiplication_word_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "bd34524abfcdd122e040dd9821084b624b34d711eabb9c66cabd5541c09259d8",
+      "snapshot_sha256": "a4116228cc0e27b3ee504455f05e8fb5239fd7350d0a56756b1565922f1fae8b"
+    },
+    "runs/pigdec_ay_highprob_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/pigdec_ay_highprob_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "1c4342b607e980b570cffb170d53ffb5953939b1d997cac52ab7372f79f5a2fb",
+      "snapshot_sha256": "401baea8269729f7cb30a5318ea69a12830d9b907bd4023fb7ae2e458a9f127f"
+    },
+    "runs/pigdec_say_highprob_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/pigdec_say_highprob_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "01ec68da85fafcf36f9c001da1911275d90a0b66a07b73342cf5fc8f7c0ad08c",
+      "snapshot_sha256": "27e3aef30219e242bb04834de37c9ae5fbad37f8aad10ab9d8b147a890995f8f"
+    },
+    "runs/revdec_highprob_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/revdec_highprob_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "4c63370df5351597c51fce38b12ac66586261e91e364891d5c99e98066ba075f",
+      "snapshot_sha256": "b4e816f594682aa32a9f851a92c7a025b332c12d74f82589220e5ddd4960dc92"
+    },
+    "runs/revdec_highprob_qwen3-32b_baseline_smoke.json": {
+      "destination": "runs/revdec_highprob_qwen3-32b_baseline_smoke.json",
+      "original_sha256": "b0536c68af309d0ee13c14e41d9b133b930ac27867a26805ec107071a29ecd52",
+      "snapshot_sha256": "f81f62d28da2d8a902f70403b8134323b740384d50cb80651d118efc55faf242"
+    },
+    "runs/revdec_lowprob_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/revdec_lowprob_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "7219ed0400198a426ea8d9083ec060e37bb0394edd3c279a4cbdcfb3b99fbd42",
+      "snapshot_sha256": "96c68dac1f7d0d4c261cf5ea35b631a067b40117a5f0069c7e315fe5cd74c259"
+    },
+    "runs/sorting_rev_10shot_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/sorting_rev_10shot_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "05a4142a7037a68597ef248ca4fa652810fddf91fb4d47338fc2982cc22295bf",
+      "snapshot_sha256": "e830f3ae263fb3458e86f2d1baafc775373212cade1413d7bf499778dc186de3"
+    },
+    "runs/swap_next_base_highprob_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/swap_next_base_highprob_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "7a1bd43bac878110e61a1a483af4ed7b0ca38258c5074dbe52bf925578dbde37",
+      "snapshot_sha256": "b23941d0836027dc683b91207e1813de2a14dc11ac4c39c480d907a57188b13e"
+    },
+    "runs/swap_next_base_lowprob_qwen3-30b-a3b_baseline_smoke.json": {
+      "destination": "runs/swap_next_base_lowprob_qwen3-30b-a3b_baseline_smoke.json",
+      "original_sha256": "d910abe8c361e4c73fed508dbf09fe6fb73c60c5a12af28dfbe186d2ec7eb633",
+      "snapshot_sha256": "da7582d70a2661709e1ae11a95f15d4a222d8b685216bae305167c554b32d647"
+    },
+    "execute_multitask_campaign.py": {
+      "destination": "evidence/expanded_final/execute_multitask_campaign.py",
+      "original_sha256": "39a27ff7f4bbc52d64eae8ed8811e3eff5530b334745f47611104090ac02026f",
+      "snapshot_sha256": "199d16a7c0777b4ceafad1969e4e0e39f9ce6e85c94c2d5880cd270b73306289"
+    }
+  }
+}

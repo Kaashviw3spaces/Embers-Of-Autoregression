@@ -1,0 +1,144 @@
+{
+  "source": "/Users/kashvi/Downloads/embers_expanded_campaign_complete",
+  "all_files": 82,
+  "empty_directories": [
+    "prompts",
+    "results/cipher_extension/reasoning",
+    "results/cipher_extension/retrieval",
+    "results/other_replication_tasks"
+  ],
+  "directories": {
+    ".": {
+      "files": 18,
+      "roles": {
+        "generated table/review": 4,
+        "derived response export": 1,
+        "written summary or supporting text": 3,
+        "generated metadata": 1,
+        "source script": 9
+      },
+      "decisions": {
+        "recompute": 5,
+        "do not count twice": 1,
+        "supporting source only": 3,
+        "reference only": 9
+      }
+    },
+    "__pycache__": {
+      "files": 1,
+      "roles": {
+        "cache": 1
+      },
+      "decisions": {
+        "exclude": 1
+      }
+    },
+    "analysis": {
+      "files": 11,
+      "roles": {
+        "source script": 6,
+        "generated table/review": 4,
+        "generated metadata": 1
+      },
+      "decisions": {
+        "reference only": 6,
+        "recompute": 5
+      }
+    },
+    "report": {
+      "files": 1,
+      "roles": {
+        "written summary or supporting text": 1
+      },
+      "decisions": {
+        "supporting source only": 1
+      }
+    },
+    "results/acronym/qwen3-30b-a3b/run_20261123_220049": {
+      "files": 6,
+      "roles": {
+        "written summary or supporting text": 2,
+        "generated table/review": 2,
+        "derived response export": 1,
+        "generated metadata": 1
+      },
+      "decisions": {
+        "supporting source only": 2,
+        "recompute": 3,
+        "do not count twice": 1
+      }
+    },
+    "results/acronym/qwen3-32b/run_20261123_pilot": {
+      "files": 3,
+      "roles": {
+        "duplicate run package": 3
+      },
+      "decisions": {
+        "do not count twice": 3
+      }
+    },
+    "results/cipher_extension/baseline": {
+      "files": 2,
+      "roles": {
+        "duplicate run package": 2
+      },
+      "decisions": {
+        "do not count twice": 2
+      }
+    },
+    "results/master": {
+      "files": 9,
+      "roles": {
+        "written summary or supporting text": 3,
+        "generated table/review": 4,
+        "derived response export": 1,
+        "generated metadata": 1
+      },
+      "decisions": {
+        "supporting source only": 3,
+        "recompute": 5,
+        "do not count twice": 1
+      }
+    },
+    "retrieval": {
+      "files": 1,
+      "roles": {
+        "written summary or supporting text": 1
+      },
+      "decisions": {
+        "supporting source only": 1
+      }
+    },
+    "runs": {
+      "files": 22,
+      "roles": {
+        "primary run log": 22
+      },
+      "decisions": {
+        "already imported": 10,
+        "import new": 12
+      }
+    },
+    "slides": {
+      "files": 1,
+      "roles": {
+        "written summary or supporting text": 1
+      },
+      "decisions": {
+        "supporting source only": 1
+      }
+    },
+    "stimuli": {
+      "files": 7,
+      "roles": {
+        "stimulus dataset": 7
+      },
+      "decisions": {
+        "existing copy": 7
+      }
+    }
+  },
+  "canonical_source_rows": 428,
+  "new_rows_imported": 56,
+  "duplicate_master_exports_verified": true
+}

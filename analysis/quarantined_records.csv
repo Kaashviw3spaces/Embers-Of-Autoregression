@@ -1,0 +1,99 @@
+record_id,contributor,source_file,source_record,source_fidelity,timestamp,run_kind,model_requested,model_returned,checkpoint_verified,task,original_task_name,intervention,thinking_requested,thinking_verified,guidance_present,item_id,input,prompt,expected,raw_text,reasoning_text,channel_provenance,stored_parsed,stored_correct,finish_reason,api_error,http_status,response_id,max_tokens_requested,temperature,top_p,reported_tokens_used,prompt_tokens,completion_tokens,tokens_note,latency_seconds,request,raw_api_response,source_code_max_tokens_not_per_call_record,scoring_version,human_verified,human_notes,source_quality,strict_correct,normalized_correct,status,category,final_text,completed_visible_target_contains,target_present_in_reasoning,oracle_matches_expected,answer_key_check_method,draft_notes,duplicate_of
+12dab7eb4d5016558ac71928,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,1,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,0,"Ngf ftue fuyq, ftqdq ymk mxea nq mzaftqd dqmeaz.","Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Ngf ftue fuyq, ftqdq ymk mxea nq mzaftqd dqmeaz.""
+Original text:","But this time, there may also be another reason.","Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,11.1,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+dc65a7dcb10991e5ca3470f9,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,2,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,1,"Fa ftue pmk, iq oazfuzgq fa raxxai ftqeq bduzoubxqe.","Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Fa ftue pmk, iq oazfuzgq fa raxxai ftqeq bduzoubxqe.""
+Original text:","To this day, we continue to follow these principles.","Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,13.7,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+8e4e300ef3b1e8603cbc5234,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,3,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,2,"Iqxx, uf ime zaf qjmofxk bxmzzqp rday ftq nqsuzzuzs.","Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Iqxx, uf ime zaf qjmofxk bxmzzqp rday ftq nqsuzzuzs.""
+Original text:","Well, it was not exactly planned from the beginning.","Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,33.1,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+e07b5bc75060800508310342,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,4,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,3,"U ftuzw qhqdkazq tme ftqud aiz bmft, mzp ftqk omz ymwq uf tmbbqz.","Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""U ftuzw qhqdkazq tme ftqud aiz bmft, mzp ftqk omz ymwq uf tmbbqz.""
+Original text:","I think everyone has their own path, and they can make it happen.","Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,35.4,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+30a0d8148e437148369fa1d1,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,5,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,4,U iuxx zaf suhq gb qhqz rad m yayqzf.,"Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""U iuxx zaf suhq gb qhqz rad m yayqzf.""
+Original text:",I will not give up even for a moment.,"Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,30.4,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+0ed76b841d03b8fc3d99e7f4,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,6,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,5,Yaef ar agd dqmpqde mdq kagzs bqabxq gzpqd 45.,"Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Yaef ar agd dqmpqde mdq kagzs bqabxq gzpqd 45.""
+Original text:",Most of our readers are young people under 45.,"Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,34.5,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+c09c5b66d12fb375c5177f44,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,7,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,6,Uf iagxp vgef fmwq m rqi efqbe fa sqf uf uzfa ftq dustf tmzpe.,"Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Uf iagxp vgef fmwq m rqi efqbe fa sqf uf uzfa ftq dustf tmzpe.""
+Original text:",It would just take a few steps to get it into the right hands.,"Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,26.3,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+fab728e34f77e94bbcaf33be,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,8,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,7,"Iqxx, ur ftqk paz'f oayq, ea nq uf.","Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Iqxx, ur ftqk paz'f oayq, ea nq uf.""
+Original text:","Well, if they don't come, so be it.","Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,28.5,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+2b8098ee4a2935bb866b0a78,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,9,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,8,"Rudef, etq vgef baefqp fa tqd Uzefmsdmy efadk.","Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Rudef, etq vgef baefqp fa tqd Uzefmsdmy efadk.""
+Original text:","First, she just posted to her Instagram story.","Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,5.2,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+1f5a73438b1c026173c2654e,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,10,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,9,"Nqomgeq ar ftue, ftqud zmyqe iqdq otmzsqp rad eqogdufk dqmeaze.","Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Nqomgeq ar ftue, ftqud zmyqe iqdq otmzsqp rad eqogdufk dqmeaze.""
+Original text:","Because of this, their names were changed for security reasons.","Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,7.3,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+1e3f84927b7d586932243a02,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,11,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,10,Ftq sdagb paqe zaf tmhq fuqe fa mzk baxufuomx bmdfk; qmot yqynqd tme tqd aiz baxufuomx upqme.,"Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Ftq sdagb paqe zaf tmhq fuqe fa mzk baxufuomx bmdfk; qmot yqynqd tme tqd aiz baxufuomx upqme.""
+Original text:",The group does not have ties to any political party; each member has her own political ideas.,"Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,8.4,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+6b1b693e6662306086a62242,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,12,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,11,"Tabqrgxxk, agd iadw ue zaf mrrqofqp nk baxufuoe ad dqxusuaz.","Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Tabqrgxxk, agd iadw ue zaf mrrqofqp nk baxufuoe ad dqxusuaz.""
+Original text:","Hopefully, our work is not affected by politics or religion.","Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,18.8,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+544c06b69a21e5d028b5f947,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,13,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,12,U ftuzw ftqdq mdq m xaf ar saap imke fa nduzs otmzsq.,"Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""U ftuzw ftqdq mdq m xaf ar saap imke fa nduzs otmzsq.""
+Original text:",I think there are a lot of good ways to bring change.,"Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,15.0,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,
+102bf69f7d7cd646c95aa390,teammate,runs/rot12dec_qwen3-30b-a3b_baseline_pilot.json,14,supplied legacy run record; no original API envelope,,pilot,qwen3-30b-a3b,,False,rot12dec,rot12dec,baseline,unknown,False,False,13,Ftue ue itk U imzfqp fa pqpuomfq uf fa mxx iayqz.,"Rot-12 is a cipher in which each letter is shifted 12 positions forward in the alphabet. For example, here is a message written in rot-12 along with the original text that it was created from:
+Rot-12 text: ""Efmk tqdq!""
+Original text: ""Stay here!""
+
+Here is another message in rot-12. Decode this message to produce the original text:
+Rot-12 text: ""Ftue ue itk U imzfqp fa pqpuomfq uf fa mxx iayqz.""
+Original text:",This is why I wanted to dedicate it to all women.,"Okay, let's see. I need t...",,legacy caller may substitute reasoning for final content,"Okay, let's see. I need t...",False,stop,,,,,,,600,,,Legacy tokens_used may be total usage or a filled-in value; split usage unavailable.,11.6,,,,completed-stored-exact-v1,False,,quarantined_excerpt,,,quarantined,Insufficient source output,"Okay, let's see. I need t...",,,True,Independent deterministic transformation,Stored excerpt is identical across 14 rows; full independent API outputs are missing. Do not infer a decoding mechanism or count as verified failures.,

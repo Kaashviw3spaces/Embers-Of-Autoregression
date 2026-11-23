@@ -1,0 +1,21 @@
+# Corrections and merge decisions
+
+- Original source run files preserved; third project inspected without running its code.
+- User, first teammate, and second friend imported with contributor/source-row provenance.
+- Generated master copies and the cloned published paper repository excluded as new experiments.
+- New friend logs preserved as 63 primary records plus 54 extension attempt records.
+- Repeated extension UIDs are retries, not extra items; errors retained separately.
+- First returned response per UID selected without selecting on correctness.
+- Exact completed content, completed visible containment, and target-in-reasoning diagnostics are separate.
+- Target-in-reasoning is not called internally solved; missing token usage is not invented.
+- Direct prompts are not represented as thinking-off; authored tables are not called internet retrieval.
+- Unsupported earlier percentages, significance values and mechanistic claims removed from active reports.
+- Fourteen shortened first-teammate cipher excerpts remain quarantined.
+- Repeated identical payload groups flagged without asserting fabrication or independence.
+- Hard-coded credentials removed from copied reference scripts and the shared bundle.
+- Participant notes preserved. The broad automatic review was replaced with 30 explicitly identified cases: 5 wrong completed answers and 25 unfinished responses. Each has a supporting excerpt and a specific explanation; no teammate section or contributor column is included in the review.
+- The larger automatic failure index remains separate in analysis/ALL_CANDIDATE_FAILURES.csv. Correct answers with extra explanation, API errors and quarantined excerpts are excluded from the selected review.
+- All annotations remain drafts until participants verify them. No new model calls or submission made.
+- Updated ZIP: prior raw_runs.jsonl and extension_runs.jsonl are unchanged. Added 24 phase-2 source records (20 unfinished outputs, four API errors), imported once; all_runs_master.jsonl remains a generated duplicate, not another experiment source.
+- New phase-2 records preserve is_truncated=false while classifying all 20 length-ended replies as unfinished. No token usage or returned-checkpoint evidence was invented.
+- Phase-2 claims of confirmed few-shot calibration, measured tokenization causes or internally solved tasks are not supported. Reasoning containment is reported only as a diagnostic. Literal {shift_k} placeholders in spacing prompts and additional repeated payload pairs are flagged.

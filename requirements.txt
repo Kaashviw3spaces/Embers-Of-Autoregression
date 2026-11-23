@@ -1,0 +1,7 @@
+requests>=2.31,<3
+reportlab>=4,<6
+openpyxl>=3.1,<4
+python-pptx>=1.0,<2
+
+# Tests and the evidence loader otherwise use Python's standard library.
+# pypdf is only needed for optional PDF page-count validation.

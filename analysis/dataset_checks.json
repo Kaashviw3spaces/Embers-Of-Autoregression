@@ -1,0 +1,37 @@
+[
+  {
+    "source_file": "stimuli/acronym1_11.jsonl",
+    "examples": 1000,
+    "mismatch_rows": []
+  },
+  {
+    "source_file": "stimuli/acronym1_15.jsonl",
+    "examples": 1000,
+    "mismatch_rows": []
+  },
+  {
+    "source_file": "stimuli/acronym1_51.jsonl",
+    "examples": 1000,
+    "mismatch_rows": []
+  },
+  {
+    "source_file": "stimuli/rot12dec_highprob.jsonl",
+    "examples": 100,
+    "mismatch_rows": []
+  },
+  {
+    "source_file": "stimuli/rot12enc_highprob.jsonl",
+    "examples": 100,
+    "mismatch_rows": []
+  },
+  {
+    "source_file": "stimuli/rot13dec_highprob.jsonl",
+    "examples": 100,
+    "mismatch_rows": []
+  },
+  {
+    "source_file": "stimuli/rot13enc_highprob.jsonl",
+    "examples": 100,
+    "mismatch_rows": []
+  }
+]
